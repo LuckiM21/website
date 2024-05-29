@@ -1,7 +1,7 @@
 {
-  "name": "mywebsite",
+  "name": "website",
   "private": true,
-  "homepage": "https://luckim21.github.io/MyWebsite/",
+  "homepage": "https://luckim21.github.io/website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
