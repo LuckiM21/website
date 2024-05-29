@@ -1,0 +1,12 @@
+a.svelte-1s0lt5v {
+  font-size: var(--font-link);
+  text-decoration: none;
+  background: var(--color-primary-accent);
+  color: var(--color-text-tertiary);
+  padding: var(--16px) var(--24px);
+  border-radius: var(--radius-base)
+}
+
+p.svelte-1s0lt5v {
+  padding-bottom: var(--spacing-xs)
+}

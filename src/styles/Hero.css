@@ -1,0 +1,5 @@
+.hero.svelte-vuja0m { display: flex; align-items: center; justify-content: center; position: relative; --_padding-top: var(--padding-top, var(--spacing-xl)); --_padding-bottom: var(--padding-bottom, var(--spacing-xl)); --_padding-left: var(--padding-left, var(--24px)); --_padding-right: var(--padding-right, var(--24px)); padding-top: var(--_padding-top); padding-bottom: var(--_padding-bottom); padding-left: var(--_padding-left); padding-right: var(--_padding-right); }
+.inner.svelte-vuja0m { max-width: var(--max-width); position: relative; z-index: var(--zindex-base); width: 100%; }
+.inner.image.svelte-vuja0m { width: auto; }
+.hero-image-holder.svelte-vuja0m { max-width: var(--max-width); position: relative; z-index: var(--zindex-base); }
+.hero-image-holder.image.svelte-vuja0m { box-shadow: var(--shadow-lg); border-radius: var(--radius-base); overflow: hidden; }

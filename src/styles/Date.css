@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.date.svelte-y08q9b {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.mood.svelte-y08q9b {
+  margin-left: 4px;
+}

@@ -1,0 +1,14 @@
+.desc.svelte-2ye4ut.svelte-2ye4ut { cursor: pointer; font-size: var(--font-link); padding: 0px 10px; color: var(--color-text-primary); position: relative; }
+.desc.svelte-2ye4ut img.svelte-2ye4ut { position: absolute; right: 0px; top: 0px; transform: translate3d(100%, 0px, 0px); width: 25px; height: auto; }
+.settings-switch-holder.svelte-2ye4ut.svelte-2ye4ut { display: flex; justify-content: space-between; align-items: center; }
+.settings-switch.svelte-2ye4ut.svelte-2ye4ut { align-items: center; cursor: default; display: flex; position: relative; width: 52px; }
+.settings-switch-input.svelte-2ye4ut.svelte-2ye4ut { opacity: 0; margin: 0px; height: 28px; transition: all 0.2s ease-in-out 0s; }
+.settings-switch-input.svelte-2ye4ut:checked + .settings-switch-label.svelte-2ye4ut::before { opacity: 1; background: var(--color-primary-accent); }
+.settings-switch-input.svelte-2ye4ut:checked + .settings-switch-label.svelte-2ye4ut::after { transform: translate(24px); }
+.settings-switch-input.svelte-2ye4ut:disabled + .settings-switch-label.svelte-2ye4ut { color: rgb(0, 0, 0); opacity: 0.3; }
+.settings-switch-label.svelte-2ye4ut.svelte-2ye4ut { align-items: center; color: rgb(0, 0, 0); display: flex; height: 100%; user-select: none; transition: all 0.2s ease-in-out 0s; }
+.settings-switch-label.svelte-2ye4ut.svelte-2ye4ut:active::before, .settings-switch-label.svelte-2ye4ut.svelte-2ye4ut:focus-within::before { outline: none; box-shadow: inset 0 0 0 2px var(--color-selector),0 0 0 2px var(--color-primary-accent); }
+.focus-is-true.svelte-2ye4ut.svelte-2ye4ut { transition: all 0.2s ease-in-out 0s; }
+.focus-is-true.svelte-2ye4ut.svelte-2ye4ut::before { outline: none; box-shadow: inset 0 0 0 2px var(--color-selector),0 0 0 2px var(--color-primary-accent); }
+.settings-switch-label.svelte-2ye4ut.svelte-2ye4ut::before { background: var(--color-primary-accent); border-radius: 20px; content: ""; display: block; height: 28px; right: 0px; position: absolute; top: 0px; transition: all 0.2s ease-in-out 0s; width: 52px; cursor: pointer; opacity: 0.5; }
+.settings-switch-label.svelte-2ye4ut.svelte-2ye4ut::after { background: var(--color-selector); border-radius: 50%; content: ""; display: block; height: 24px; right: 26px; position: absolute; top: 2px; transition: transform 0.2s ease 0s; width: 24px; box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px; cursor: pointer; }

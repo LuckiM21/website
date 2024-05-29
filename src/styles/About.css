@@ -1,0 +1,269 @@
+.timeline.svelte-16qh449 {
+  --_column: var(--column, 1/span 3);
+  --_row: var(--row, 4/4);
+  color: var(--color-text-tertiary);
+  background: var(--color-primary-accent);
+  padding: var(--16px) var(--24px);
+  grid-column-start: 2;
+  grid-column-end: 25;
+  border-radius: var(--64px);
+  position: relative;
+  overflow: hidden;
+  display: grid
+}
+
+@media (min-width: 768px) {
+  .timeline.svelte-16qh449 {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-column: var(--_column);
+    grid-row: var(--_row)
+  }
+}
+
+.content.svelte-16qh449 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  z-index: var(--zindex-content)
+}
+
+.work.svelte-16qh449 {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.time.svelte-16qh449 {
+  font-family: var(--titleFont);
+  font-size: var(--font-h4)
+}
+
+.company.svelte-16qh449 {
+  font-size: var(--font-h5);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.title.svelte-16qh449 {
+  font-size: var(--font-h6);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--color-text-quarterly)
+}
+
+.entry.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-column: 1/10
+}
+
+.intro.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--font-h2-display);
+  line-height: 110%
+}
+
+.line-height.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  line-height: 120%
+}
+
+p.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  color: var(--color-text-secondary)
+}
+
+h3.svelte-c4ft01+p.svelte-c4ft01.svelte-c4ft01 {
+  padding-top: calc(var(--spacing-xs) - var(--14px))
+}
+
+.me.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-column-start: 3;
+  grid-column-end: 24;
+  position: relative
+}
+
+@media (min-width: 768px) {
+  .me.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    margin-top: var(--spacing-xs)
+  }
+}
+
+.me-content.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  position: relative
+}
+
+.blurb.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-column-start: 3;
+  grid-column-end: 24;
+  margin-top: var(--42px)
+}
+
+@media (min-width: 768px) {
+  .blurb.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    grid-column-start: 12;
+    grid-column-end: 24;
+    margin-top: var(--24px)
+  }
+}
+
+.deets.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  margin-bottom: var(--spacing-l)
+}
+
+.timeline-holder.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  padding: 0
+}
+
+@media (min-width: 768px) {
+  .timeline-holder.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    padding: 0 var(--64px)
+  }
+}
+
+.timeline.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-row-gap: var(--16px);
+  margin-bottom: var(--spacing-l)
+}
+
+.principles.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  padding: var(--spacing-s) 0 var(--spacing-l);
+  grid-row-gap: var(--spacing-m);
+  margin: var(--spacing-xs) auto var(--spacing-l);
+  position: relative;
+  background: var(--color-white30);
+  backdrop-filter: blur(10px) saturate(1.3);
+  -webkit-backdrop-filter: blur(10px) saturate(1.3)
+}
+
+@media (min-width: 768px) {
+  .principles.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    border-radius: var(--64px);
+    padding: var(--spacing-l) 0 calc(var(--spacing-l) + var(--42px));
+    margin: var(--spacing-xs) auto calc(var(--spacing-l) - 20px)
+  }
+}
+
+.principles.svelte-c4ft01 p.svelte-c4ft01.svelte-c4ft01 {
+  padding-top: 0
+}
+
+.principles.svelte-c4ft01 .count.svelte-c4ft01.svelte-c4ft01 {
+  font-size: var(--24px);
+  font-family: var(--titleFont);
+  margin-bottom: var(--16px);
+  opacity: .5
+}
+
+@media (min-width: 768px) {
+  .principles.svelte-c4ft01 .count.svelte-c4ft01.svelte-c4ft01 {
+    font-size: var(--42px);
+    margin-bottom: var(--24px)
+  }
+}
+
+.entry.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  position: relative;
+  z-index: var(--zindex-content)
+}
+
+.entry.principle-1.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01,
+.entry.principle-3.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-column-start: 3;
+  grid-column-end: 24
+}
+
+@media (min-width: 768px) {
+
+  .entry.principle-1.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01,
+  .entry.principle-3.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    grid-column-start: 4;
+    grid-column-end: 13
+  }
+}
+
+.entry.principle-2.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01,
+.entry.principle-4.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  grid-column-start: 3;
+  grid-column-end: 24
+}
+
+@media (min-width: 768px) {
+
+  .entry.principle-2.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01,
+  .entry.principle-4.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    grid-column-start: 14;
+    grid-column-end: 23
+  }
+}
+
+.pics.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  margin: 0 auto var(--spacing-l);
+  gap: var(--16px);
+  padding: 0
+}
+
+@media (min-width: 768px) {
+  .pics.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    padding: 0 var(--64px);
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+}
+
+.pics.svelte-c4ft01 .col.svelte-c4ft01.svelte-c4ft01 {
+  overflow: hidden
+}
+
+@media (min-width: 768px) {
+  .pics.svelte-c4ft01 .col.svelte-c4ft01.svelte-c4ft01 {
+    border-radius: var(--16px)
+  }
+}
+
+.pics.svelte-c4ft01 .col.svelte-c4ft01+.col.svelte-c4ft01 {
+  margin-top: var(--16px)
+}
+
+@media (min-width: 768px) {
+  .pics.svelte-c4ft01 .col.svelte-c4ft01+.col.svelte-c4ft01 {
+    margin-top: 0
+  }
+}
+
+.pics.svelte-c4ft01 .small.svelte-c4ft01.svelte-c4ft01 {
+  display: none
+}
+
+@media (min-width: 768px) {
+  .pics.svelte-c4ft01 .small.svelte-c4ft01.svelte-c4ft01 {
+    display: block
+  }
+}
+
+.music-player.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  background: var(--color-primary-accent);
+  padding: var(--20px) var(--24px);
+  color: var(--color-text-tertiary);
+  display: flex;
+  align-items: center;
+  font-size: var(--font-link);
+  min-height: 90px
+}
+
+.me-holder.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+  max-height: 384px;
+  overflow: hidden
+}
+
+@media (min-width: 768px) {
+  .me-holder.svelte-c4ft01.svelte-c4ft01.svelte-c4ft01 {
+    max-height: none
+  }
+}

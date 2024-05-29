@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.callout.svelte-n9q8ts {
+  position: relative;
+  padding: var(--spacing-xs);
+  grid-column: 1 / -1;
+  border-radius: 0 var(--radius-base) var(--radius-base) 0;
+  background: var(--color-opaque);
+  color: var(--color-text-secondary);
+  font-size: var(--font-link);
+  box-shadow: inset 5px 0 0 0 var(--color-text-primary);
+  margin: var(--spacing-xxs) auto;
+}
