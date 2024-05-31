@@ -30,8 +30,8 @@ const Cards = () => {
               <img
                 src={Svg1}
                 alt=""
-                className="top: -80px; left: 70px svelte-vd84gr"
-                // className="svelte-vd84gr"
+                className=" top: -80px; left: 70px svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
             </div>
             <div className="card-wrap svelte-vd84gr">
@@ -76,13 +76,13 @@ const Cards = () => {
                 src={Svg2}
                 alt=""
                 className="top: -70px; left: 70px"
-                // className="svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
               <img
                 src={Svg3}
                 // alt=""
                 className="top: -80px; right: 250px"
-                // className="svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
             </div>
             <div className="card-wrap svelte-vd84gr">
@@ -127,13 +127,13 @@ const Cards = () => {
                 src={Svg1}
                 // alt=""
                 className="bottom: 200px; left: -100px"
-                // className="svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
               <img
                 src={Svg2}
                 // alt=""
                 className="top: -100px; right: 300px"
-                // className="svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
             </div>
             <div className="card-wrap svelte-vd84gr">
@@ -178,7 +178,7 @@ const Cards = () => {
                 src={Svg1}
                 alt=""
                 className="top: -70px; left: 100px"
-                // className="svelte-vd84gr"
+              // className="svelte-vd84gr"
               />
             </div>
             <div className="card-wrap svelte-vd84gr">

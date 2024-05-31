@@ -12,7 +12,6 @@ import AboutPage from './Pages/AboutPage'
 import NotesPage from './Pages/NotesPage'
 import ProjectsPage from './Pages/ProjectsPage'
 import Error from './Pages/Error'
-import WebProjects from './Pages/WebProjects'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,8 +26,6 @@ const router = createBrowserRouter(
 const App = () => {
   return (<>
     <RouterProvider router={router} />
-    {/* <WebProjects /> */}
-
 
   </>
 
