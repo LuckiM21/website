@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-
-const Ai = () => {
+const Architecture = () => {
   return (
     <>
       <main className="svelte-1p8u9ev">
@@ -38,7 +37,7 @@ const Ai = () => {
                       </Link>
                     </div>
                     <article className="svelte-9xj1dk">
-                      <h1>How I leverage AI in my everyday work</h1>
+                      <h1>Architecture</h1>
                       <div className="date svelte-y08q9b">
                         <span>
                           <div className="avatars svelte-1oghubx">
@@ -509,4 +508,4 @@ const Ai = () => {
   );
 };
 
-export default Ai;
+export default Architecture;

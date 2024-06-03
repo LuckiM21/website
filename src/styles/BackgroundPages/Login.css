@@ -7,18 +7,17 @@
   font-family: "Quicksand", sans-serif;
 }
 
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #111;
   width: 100%;
   overflow: hidden;
-}
+} */
 
 .ring {
-  position: relative;
+  position: fixed;
   width: 500px;
   height: 500px;
   display: flex;
@@ -109,11 +108,15 @@ body {
 
 .login .inputBx input[type="submit"] {
   width: 100%;
-  background: #0078ff;
-  background: linear-gradient(45deg, #ff357a, #fff172);
+  background: linear-gradient(45deg, #1e8fa890, #ffffffa3);
   border: none;
   cursor: pointer;
 }
+
+.login .inputBx input[type="submit"]:hover {
+  background: linear-gradient(45deg, #f54ac7a3, #52ac1b90);
+}
+
 
 .login .inputBx input::placeholder {
   color: rgba(255, 255, 255, 0.75);
@@ -131,4 +134,103 @@ body {
 .login .links a {
   color: #fff;
   text-decoration: none;
+}
+
+
+
+
+
+
+/* ========================================================== */
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400vh;
+  /* background: #111; */
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+.ring2 {
+  position: fixed;
+  width: 1400px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring2 i {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #ffffff;
+  border: 6px solid var(--clr);
+  filter: drop-shadow(0 0 20px var(--clr));
+  transition: 0.5s;
+}
+
+.ring2 i:nth-child(1) {
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  animation: animate 60s linear infinite;
+}
+
+.ring2 i:nth-child(2) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 70%;
+  animation: animate 120s linear infinite;
+}
+
+.ring2 i:nth-child(3) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 50%;
+  animation: animate2 90s linear infinite;
+}
+
+/* .ring2:hover i {
+ 
+} */
+
+
+
+
+/* ============================ */
+
+
+.ring3 {
+  position: relative;
+  width: 1500px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring3 i {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #000000;
+  transition: 0.5s;
+}
+
+.ring3 i:nth-child(1) {
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  animation: animate2 20s linear infinite;
+}
+
+.ring3 i:nth-child(2) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate2 100s linear infinite;
+}
+
+.ring3 i:nth-child(3) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate2 150s linear infinite;
+}
+
+.ring3:hover i {
+  border: 6px solid var(--clr);
+  filter: drop-shadow(0 0 20px var(--clr));
 }

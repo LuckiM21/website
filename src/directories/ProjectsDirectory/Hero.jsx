@@ -23,13 +23,14 @@ const Hero = () => {
           </span>
         </h1>
         <div className="wrapper svelte-fn0uxd">
-          <p className="svelte-fn0uxd center"></p>
-          <div slot="subtitle">
+          <div className="svelte-fn0uxd">
             A collection of tools, web apps and sites I`ve created, designed to
             be helpful, fun, <span className="amp">&amp;</span> sometimes just a
             little bit weird.
           </div>
         </div>
+        <br />
+        <br />
       </main>
     </>
   );

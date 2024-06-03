@@ -13,10 +13,20 @@ const PlayCards
   = () => {
     return (
       <div>
+
+
+
+        <div className="timeline-holder svelte-c4ft01">
+          <div className="grid svelte-885gk8 xs">
+            <h2 className="item svelte-885gk8">Web Projects</h2>
+          </div>
+        </div>
+
+
+
         <div className="showcase-holder svelte-18wal5">
-          <h2>Web Projects</h2>
           <div className="showcase svelte-18wal5">
-            <Link to="#" className="showcase-block svelte-18wal5">
+            <Link to="/WebProjects" className="showcase-block svelte-18wal5">
               <div className="showcase-inner svelte-18wal5">
                 <div className="deets svelte-18wal5">
                   <div className="title svelte-18wal5">
@@ -78,8 +88,16 @@ const PlayCards
 
           </div>
         </div>
+
+
+
+
+        <div className="timeline-holder svelte-c4ft01">
+          <div className="grid svelte-885gk8 xs">
+            <h2 className="item svelte-885gk8">Architecture Projects</h2>
+          </div>
+        </div>
         <div className="showcase-holder svelte-18wal5">
-          <h2>Architecture Projects</h2>
           <div className="showcase svelte-18wal5">
             <Link to="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
               <div className="deets svelte-18wal5">
@@ -102,8 +120,18 @@ const PlayCards
             </Link>
           </div>
         </div>
+
+
+
+
+
+        <div className="timeline-holder svelte-c4ft01">
+          <div className="grid svelte-885gk8 xs">
+            <h2 className="item svelte-885gk8">Art Projects</h2>
+          </div>
+        </div>
         <div className="showcase-holder svelte-18wal5">
-          <h2>Art Projects</h2>
+
           <div className="showcase svelte-18wal5">
             <Link to="#" className="showcase-block svelte-18wal5">
               <div className="showcase-inner svelte-18wal5">

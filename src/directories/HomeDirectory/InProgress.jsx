@@ -13,29 +13,30 @@ const InProgress = () => {
           to in-flight product design and development.
         </p>
       </div>
-
+      {/* ====================================CARDS================================= */}
       <div className="cards svelte-131t5ir">
         <div className="cards-content">
           <div
-            className="
-                  display: contents;
-                  --background: var(--color-white);
-                  --color: var(--color-text-bold);
-                  --grid-column-start: 1;
-                  --grid-column-end: 16;
-                  --align: center;
-                "
+            style={{
+              display: 'contents',
+              background: 'var(--color-white)',
+              color: 'var(--color-text-bold)',
+              '--grid-column-start': '1',
+              '--grid-column-end': '16',
+              '--align': 'center'
+            }}
+
           >
             <a
               className="card svelte-vd84gr"
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="work/doodler"
+              href="https://www.halpin.xyz/work/doodler"
             >
               <div className="card-wrap svelte-vd84gr">
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Real Estate</span>
+                  <span className="svelte-vd84gr">Multiplayer</span>
                   <h2>Doodler</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
@@ -45,32 +46,31 @@ const InProgress = () => {
                         src={Doodler}
                         alt="Doodler"
                         width="100%"
-                        // height=""
+                        height=""
                         loading="lazy"
                         className="svelte-cmqfoo skip loaded"
                       />
                     </figure>
                   </div>
-                </div>
-              </div>
-            </a>
+                </div></div
+              ></a>
           </div>
           <div
-            className="
-                  display: contents;
-                  --background: #1c1c1c;
-                  --color: var(--color-white);
-                  --grid-column-start: 17;
-                  --grid-column-end: 26;
-                  --align: flex-end;
-                "
+            style={{
+              display: 'contents',
+              background: '#1c1c1c',
+              color: 'var(--color-white)',
+              '--grid-column-start': '17',
+              '--grid-column-end': '26',
+              '--align': 'flex-end'
+            }}
           >
             <a
               className="card svelte-vd84gr"
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="work/droplette"
+              href="https://www.seanhalpin.xyz/work/droplette"
             >
               <div className="card-wrap svelte-vd84gr">
                 <div className="info svelte-vd84gr">
@@ -95,7 +95,7 @@ const InProgress = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };

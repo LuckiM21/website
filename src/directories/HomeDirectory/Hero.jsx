@@ -1,5 +1,5 @@
-import FirstStar from "../../assets/images/hp/star-1.svg";
-import SecondStar from "../../assets/images/hp/star-2.svg";
+import FirstStar from "../../assets/images/hp/Star1";
+import SecondStar from "../../assets/images/hp/Star2";
 
 const Hero = () => {
   return (
@@ -43,11 +43,10 @@ const Hero = () => {
         </span>
       </h1>
       <div className="wrapper svelte-fn0uxd">
-        {/* <p className="svelte-fn0uxd center"></p> */}
-        <div slot="subtitle">
+        <div className="svelte-fn0uxd">
           I`m passionate about crafting experiences that are engaging,
           accessible, and user-centric.
-          Here we can delv deep into what I`ve worked on in the past, current and what my endeavors are!
+          Here we can dealv deep into what I`ve worked on in the past, current and what my endeavors are!
         </div>
       </div>
     </>

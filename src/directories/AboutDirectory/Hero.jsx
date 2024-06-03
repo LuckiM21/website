@@ -7,11 +7,15 @@ const Hero = () => {
         <span slot="title">I`m Luckie.</span>
       </h1>
 
+
       <div className="deets grid svelte-c4ft01">
-        <div className="me svelte-c4ft01">
+        <div className="me svelte-c4ft01" >
           <div className="me-content svelte-c4ft01">
             <div className="me-holder svelte-c4ft01">
-              <div className="display: contents; --display: block">
+              <div style={{
+                display: 'contents',
+                '--display': 'block'
+              }}>
                 <figure className="svelte-cmqfoo radius skeleton">
                   <img
                     src={Avator}
@@ -20,14 +24,20 @@ const Hero = () => {
                     height="384"
                     loading="lazy"
                     className="svelte-cmqfoo radius fit skip loaded"
-                  ></img>
+                  />
                 </figure>
               </div>
             </div>
             <div className="music-player svelte-c4ft01">
-              <div className="display: contents; --color: var(--color-text-tertiary);">
+              <div style={{
+                display: 'contents',
+                '--color': 'var(--color-text-tertiary'
+              }} >
                 <div className="icon svelte-1ybcdb5">
-                  <div className="display: contents; --fill: var(--color-primary)">
+                  <div style={{
+                    display: 'contents',
+                    '--fill': 'var(--color-primary)'
+                  }}>
                     <svg
                       width="41"
                       height="40"
@@ -57,23 +67,22 @@ const Hero = () => {
           </div>
         </div>
         <div className="blurb svelte-c4ft01">
-          <h2 className="intro svelte-c4ft01">
-            I`m a front end web developer &amp; designer located in Lusaka,
-            Zambia.
+          <h2 className="intro svelte-c4ft01" >
+            I`m a front end web developer &amp; designer located in Lusaka, Zambia.
           </h2>
-          <p className="svelte-c4ft01">
+          <p className="svelte-c4ft01" >
             Over the past 4+ years, I`ve worked in various areas of digital
             design, including front-end development, email, marketing, and app
-            UI/UX. I`m proud to have worn many hats.
+            UI/UX. I`m proud to have worn many hats
           </p>
-          <p className="svelte-c4ft01">
-            I focus on creating &amp; designing web apps with clean &amp; user-friendly experiences, and for that, I am
-            passionate about building exciting software`s that improves the
-            lives of those around me.
+          <p className="svelte-c4ft01" >
+            I focus on creating &amp; designing web apps with clean &amp;
+            user-friendly experiences, and for that, I am passionate about
+            building exciting software`s that improves the lives of those around
+            me.
           </p>
-          <p></p>
         </div>
-      </div>
+      </div >
     </>
   );
 };

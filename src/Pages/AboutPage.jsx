@@ -3,6 +3,7 @@ import FirstSection from "../directories/AboutDirectory/FirstSection"
 import FourthSection from "../directories/AboutDirectory/FourthSection"
 import SecondSection from "../directories/AboutDirectory/SecondSection"
 import ThirdSection from "../directories/AboutDirectory/ThirdSection"
+import Footer from "../directories/Footer"
 
 const AboutPage = () => {
   return (
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <Footer />
     </>
   )
 }

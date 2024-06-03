@@ -11,6 +11,7 @@ const WebProjects = () => {
 
                 </div>
                 <h1>Web Projects</h1>
+
                 <div className="date svelte-y08q9b">
 
                   <span className="mood svelte-y08q9b">Feeling puntastic</span>
