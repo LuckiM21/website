@@ -90,7 +90,7 @@ const NotesCards = () => {
               </div>
             </Link>
             <Link
-              to="notes/throwaways"
+              to="/Throwaways"
               className="showcase-block svelte-88yij0"
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""

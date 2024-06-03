@@ -502,8 +502,8 @@ const Ai = () => {
             </div>
           </div >
         </div >
-        <br />
-        <div className="spacer svelte-1dke9pl"></div>
+        {/* <br /> */}
+        {/* <div className="spacer svelte-1dke9pl"></div> */}
       </main>
     </>
   );

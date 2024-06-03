@@ -37,7 +37,7 @@ const Architecture = () => {
                       </Link>
                     </div>
                     <article className="svelte-9xj1dk">
-                      <h1>Architecture</h1>
+                      <h1>Overview of work style as an assistant architect</h1>
                       <div className="date svelte-y08q9b">
                         <span>
                           <div className="avatars svelte-1oghubx">
@@ -84,16 +84,14 @@ const Architecture = () => {
                         </figure>
                       </div>
                       <p>
-                        AI is here to eat all the things. I agree with
-                        <a
-                          href="https://mailchi.mp/eab7a0eacb6a/ai-design-system-20230502?e=8f8a54d0a5"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          Design Dept’s Mia Blume
-                        </a>
-                        in their assessment that large swaths of the design process are
-                        ripe for automation. It’s simply a matter of time.
+                        As a junior architect, my work style can be described as having a strong attention to detail.
+                        I understood the importance of precision and accuracy in architectural design and
+                        strived to ensure that every aspect of a project is carefully considered.
+                      </p>
+                      <p>
+                        Whether it`s the placement of windows, the selection of materials, or the intergration of sustainable features,
+                        I used to pay close attention to the finer details to create a cohesive and well-designed space.
+                        This meticiulous approach helped me deliver high-quality work that meets the needs and expectations of clients.
                       </p>
                       <a
                         href="https://www.etsy.com/listing/1392874311/surrender-artist-print"
@@ -121,49 +119,33 @@ const Architecture = () => {
                         </div>
                       </a>
                       <p>
-                        Rather than pushing back against this development, I feel it’s
-                        wise to stay ahead of the game and learn to capitalize on AI in
-                        our everyday work. Developers are
-                        <a
-                          href="https://github.blog/2023-06-13-survey-reveals-ais-impact-on-the-developer-experience/"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          already doing this
-                        </a>
-                        , and designers should too.
+                        Collaboration and communication where also integral aspects of my work style.
+                        I recognised the value of working as a team and believe that the best results
+                        are achieved through effective collaboration.
+                        And i still do.
                       </p>
                       <p>
-                        Having been immersed in AI for the past number of months, along
-                        with recently designing and shipping Help Scout’s
-                        <a
-                          href="https://www.helpscout.com/blog/introducing-ai-from-help-scout/"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          first AI features
-                        </a>
-                        , I wanted to share how I’ve started to bring AI into my day to
-                        day.
+                        I actively seeked input and feedback from colleagues, consultants, and clients
+                        to ensure that all perspectives are considered in the design process.
                       </p>
-                      <h2>Real fake data</h2>
+                      {/* <h2>Real fake data</h2> */}
                       <p>
-                        As designers, we want to make things look pretty. One of the
-                        pitfalls of working in an abstraction like Figma, is that we are
-                        detached from the real data that will eventually power our
-                        designs.
+                        This collaborative and communicative approach fosters a positive working
+                        environment and led to successful project outcomes.
                       </p>
                       <p>
-                        What looks good in a mock may not accurately reflect the data
-                        that will eventually be displayed. AI is a great way to get a
-                        sense of what real data will look like in our designs, or ‘real
-                        fake data’ as I like to call it.
+                        Creativity and innovation where the fundamental components of
+                        my work style as an architect.
+                        I thrived on generating unique and imaginative design solitions
+                        that push boundaries and challenge conventional norms.
                       </p>
                       <p>
-                        In the below example, I run a rudimentary prompt through OpenAI
-                        to generate a conversation between a customer and a support
-                        agent. I then use that data to populate a mock conversation in
-                        Figma, leveraging the relevant design system components.
+                        By thinking outside the box and exploring new posibilities, I
+                        strived to create spaces that where not only functional visually
+                        striking and inspiring. Whether it`s finding innovative ways to
+                        incorporate sustainable features or designingspaces that promote well-being
+                        and user experience, I continuously seek opportunities to infuse creativity
+                        and innovation into my architectural projects.
                       </p>
                       <figure className="video svelte-1q0lkgh shadow">
                         <video
@@ -226,17 +208,16 @@ const Architecture = () => {
                         the code you are writing.
                       </p>
                       <div className="callout svelte-n9q8ts">
-                        There are questions regarding the
+                        I still work as a freelance architect. Taking on projects different kind of
+                        projects that help me utilise my expertise in architecture `
                         <a
-                          href="https://githubcopilotlitigation.com/"
+                          href="#"
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="contact"
                         >
-                          ethics of Copilot
+                          contact me
                         </a>
-                        , and the potential for it to be used to generate code that is
-                        not original. If you have ethical concerns, proceed with
-                        caution.
+                        ' for more infomation.
                       </div>
                       <p>
                         As someone who moonlights as a developer, I’ve come to find
@@ -502,7 +483,7 @@ const Architecture = () => {
           </div >
         </div >
         <br />
-        <div className="spacer svelte-1dke9pl"></div>
+        {/* <div className="spacer svelte-1dke9pl"></div> */}
       </main>
     </>
   );

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Svg1 from "../../assets/images/work/docs/flurish/card_docs_icon_01.svg";
 import Svg2 from "../../assets/images/work/docs/flurish/card_docs_icon_02.svg";
 import Svg3 from "../../assets/images/work/docs/flurish/card_docs_icon_03.svg";
@@ -6,6 +6,7 @@ import AiPng from "../../assets/images/hp/ai.png";
 import Figma from "../../assets/images/hp/figma.png";
 import Docs from "../../assets/images/hp/docs.png";
 import Hs from "../../assets/images/hp/hs.png";
+import CardDocsicon01 from '../../assets/images/work/docs/flurish/CardDocsicon01'
 
 const Cards = () => {
   return (
@@ -35,8 +36,10 @@ const Cards = () => {
               href="#"
             >
               <div className="card-flourish svelte-vd84gr">
+                <CardDocsicon01 />
                 <img
-                  src={Svg1}
+                  // src={Svg1}
+
                   style={{
                     top: "-80px",
                     left: "70px",

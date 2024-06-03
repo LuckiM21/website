@@ -10,7 +10,9 @@ const FirstSection = () => {
 
           <div className="timeline-holder svelte-c4ft01">
             <div className="grid svelte-885gk8 xs">
-              <h3 className="item svelte-885gk8">Front End</h3>
+              <h3 className="item svelte-885gk8">
+                Front End
+              </h3>
             </div>
             <div className="timeline grid svelte-c4ft01" >
               <div
@@ -27,7 +29,8 @@ const FirstSection = () => {
                       <div className="company svelte-16qh449">
                         React
                       </div>
-                      <div className="title svelte-16qh449">Design / Dev</div>
+                      <div className="title svelte-16qh449">
+                        Design / Dev</div>
                     </div>
                     <div className="time svelte-16qh449">7-10</div>
                   </div>
@@ -68,7 +71,7 @@ const FirstSection = () => {
                         Javascript
                       </div>
                       <div className="title svelte-16qh449">
-                        Typescript / JSX /
+                        Typescript / JSX / Three.Js
                       </div>
                     </div>
                     <div className="time svelte-16qh449">12~</div>

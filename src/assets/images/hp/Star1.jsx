@@ -1,9 +1,9 @@
 
-const Star1 = () => {
+const Star1 = ({ color }) => {
   return (
     <div>
       <svg
-        fill="none"
+        fill={color}
         height="68"
         viewBox="0 0 68 68"
         width="68"

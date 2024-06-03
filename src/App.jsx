@@ -17,6 +17,7 @@ import LoginPage from './Pages/LoginPage'
 import CssPage from './directories/NotesDirectory/NotesCardPages/CssPage'
 import Ai from './directories/NotesDirectory/NotesCardPages/Ai'
 import Architecture from './directories/NotesDirectory/NotesCardPages/Architecture'
+import Throwaways from './directories/NotesDirectory/NotesCardPages/Throwaways'
 // import Bg from './Pages/Bg'
 
 const router = createBrowserRouter(
@@ -31,6 +32,7 @@ const router = createBrowserRouter(
       <Route path="/Css" element={<CssPage />} />
       <Route path="/Ai" element={<Ai />} />
       <Route path="/Architecture" element={<Architecture />} />
+      <Route path="/Throwaways" element={<Throwaways />} />
       <Route path="*" element={<Error />} />
     </Route>
   ));
@@ -38,7 +40,7 @@ const App = () => {
   return (<>
     <RouterProvider router={router} />
     {/* <Bg /> */}
-
+    {/* <Throwaways /> */}
   </>
 
   )
