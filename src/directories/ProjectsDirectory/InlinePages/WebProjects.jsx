@@ -52,7 +52,7 @@ const WebProjects = () => {
                   Yet, during an intense period — wrapping up my final months at
                   Help Scout
                   <a
-                    href="https://www.helpscout.com/ai-features/"
+                    href="#"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -60,7 +60,7 @@ const WebProjects = () => {
                   </a>
                   , diving into an
                   <a
-                    href="https://www.droplette.app/"
+                    href="#"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -68,7 +68,7 @@ const WebProjects = () => {
                   </a>
                   , quietly
                   <a
-                    href="https://www.docsthemepro.com/"
+                    href="#"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -76,7 +76,7 @@ const WebProjects = () => {
                   </a>
                   , and on the cusp of leading design at
                   <a
-                    href="https://www.givedirectly.org/"
+                    href="#"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -151,7 +151,7 @@ const WebProjects = () => {
                 >
                   <figure className="svelte-cmqfoo">
                     <img
-                      src="https://www.luckiemumba.xyz/notes/cssart/ep133-colors.png"
+                      src="#"
                       alt="colour palette for the ep-133"
                       width="100%"
                       height="auto"

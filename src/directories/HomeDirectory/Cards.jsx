@@ -87,7 +87,7 @@ const Cards = () => {
             >
               <div className="card-flourish svelte-vd84gr">
                 <img
-                  src="https://www.seanhalpin.xyz/work/docs/flourish/card_docs_icon_02.svg"
+                  src="https:///work/docs/flourish/card_docs_icon_02.svg"
                   style={{
                     top: "-70px",
                     left: "70px",
@@ -95,7 +95,7 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
                 <img
-                  src="https://www.seanhalpin.xyz/work/docs/flourish/card_docs_icon_03.svg"
+                  src="https://work/docs/flourish/card_docs_icon_03.svg"
                   style={{
                     top: "-80px",
                     right: "250px",
@@ -139,11 +139,11 @@ const Cards = () => {
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="https://www.seanhalpin.xyz/work/plugins"
+              href="https:// /work/plugins"
             >
               <div className="card-flourish svelte-vd84gr">
                 <img
-                  src="https://www.seanhalpin.xyz/work/plugin/flourish/card_figma_icon_01.svg"
+                  src="https:///work/plugin/flourish/card_figma_icon_01.svg"
                   style={{
                     bottom: "200px",
                     left: "-100px",
@@ -151,7 +151,7 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
                 <img
-                  src="https://www.seanhalpin.xyz/work/plugin/flourish/card_figma_icon_02.svg"
+                  src="https:// /work/plugin/flourish/card_figma_icon_02.svg"
                   style={{
                     top: "-100px",
                     right: "300px",
@@ -195,11 +195,11 @@ const Cards = () => {
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="https://www.seanhalpin.xyz/work/mobile"
+              href="https:// /work/mobile"
             >
               <div className="card-flourish svelte-vd84gr">
                 <img
-                  src="https://www.seanhalpin.xyz/work/mobile/flourish/card_mobile_icon_01.svg"
+                  src="https:// /work/mobile/flourish/card_mobile_icon_01.svg"
                   style={{
                     top: "-70px",
                     left: "100px",

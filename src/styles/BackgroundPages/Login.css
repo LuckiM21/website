@@ -158,8 +158,8 @@
 
 .ring2 {
   position: fixed;
-  width: 1400px;
-  height: 800px;
+  width: 120%;
+  height: 120%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,7 +199,7 @@
 /* ============================ */
 
 
-.ring3 {
+/* .ring3 {
   position: relative;
   width: 1500px;
   height: 900px;
@@ -233,4 +233,4 @@
 .ring3:hover i {
   border: 6px solid var(--clr);
   filter: drop-shadow(0 0 20px var(--clr));
-}
+} */

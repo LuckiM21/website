@@ -40,7 +40,7 @@ const Throwaways = () => {
                         <div className="avatar svelte-1oghubx initial">
                           <figure className="svelte-cmqfoo skeleton">
                             <img
-                              src="https://www.seanhalpin.xyz/about/avatar.png"
+                              src="https:// /about/avatar.png"
                               alt="Seán Halpin"
                               width="32"
                               height="32"
@@ -70,7 +70,7 @@ const Throwaways = () => {
                 >
                   <figure className="svelte-cmqfoo">
                     <img
-                      src="https://www.seanhalpin.xyz/notes/throwaway/hero.png"
+                      src="https:// /notes/throwaway/hero.png"
                       alt="Image of a project with an X over it"
                       width="768"
                       height="476"
@@ -105,11 +105,11 @@ const Throwaways = () => {
                     autoPlay=""
                     loop=""
                     preload="auto"
-                    poster="https://www.seanhalpin.xyz/notes/throwaways"
+                    poster="https:// /notes/throwaways"
                     className="svelte-1q0lkgh"
                   >
                     <source
-                      src="https://www.seanhalpin.xyz/notes/throwaway/scaff.mp4"
+                      src="https:// /notes/throwaway/scaff.mp4"
                       type="video/mp4"
                     />
                   </video> */}
@@ -138,11 +138,11 @@ const Throwaways = () => {
                     autoPlay=""
                     loop=""
                     preload="auto"
-                    poster="https://www.seanhalpin.xyz/notes/throwaways"
+                    poster="https:// /notes/throwaways"
                     className="svelte-1q0lkgh"
                   >
                     <source
-                      src="https://www.seanhalpin.xyz/notes/throwaway/player.mp4"
+                      src="https:// /notes/throwaway/player.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -187,7 +187,7 @@ const Throwaways = () => {
                 >
                   <figure className="svelte-cmqfoo">
                     <img
-                      src="https://www.seanhalpin.xyz/notes/throwaway/tada.png"
+                      src="https:// /notes/throwaway/tada.png"
                       alt="Detailed screens of the tada app UI"
                       width="100%"
                       height="auto"
@@ -206,7 +206,7 @@ const Throwaways = () => {
                 >
                   <figure className="svelte-cmqfoo">
                     <img
-                      src="https://www.seanhalpin.xyz/notes/throwaway/collection.png"
+                      src="https:// /notes/throwaway/collection.png"
                       alt="Screenshots of the tada app UI"
                       width="100%"
                       height="auto"
@@ -248,11 +248,11 @@ const Throwaways = () => {
                     autoPlay=""
                     loop=""
                     preload="auto"
-                    poster="https://www.seanhalpin.xyz/notes/throwaways"
+                    poster="https:// /notes/throwaways"
                     className="svelte-1q0lkgh"
                   >
                     <source
-                      src="https://www.seanhalpin.xyz/notes/throwaway/pics.mp4"
+                      src="https:// /notes/throwaway/pics.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -330,7 +330,7 @@ const Throwaways = () => {
                       </div>
                     </button>
                     <a
-                      href="https://twitter.com/share?url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fthrowaways"
+                      href="https://twitter.com/share?url=https%3A%2F%2F luckiemumba.xyz.com%2Fnotes%2Fthrowaways"
                       className="newsletter-link svelte-9xj1dk"
                       title="Share on twitter"
                       target="_blank"
@@ -358,7 +358,7 @@ const Throwaways = () => {
                       </div>
                     </a>
                     <a
-                      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fthrowaways"
+                      href="#"
                       className="newsletter-link svelte-9xj1dk"
                       target="_blank"
                       title="Share on LinkedIn"

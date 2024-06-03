@@ -70,7 +70,7 @@ const Footer = () => {
           </li>
           <li className="svelte-gfa3ns">
             <a
-              href="https://github.com/luckiemumba"
+              href="https://github.com/luckim21"
               target="_blank"
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"

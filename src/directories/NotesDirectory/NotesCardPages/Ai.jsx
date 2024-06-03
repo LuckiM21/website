@@ -75,7 +75,7 @@ const Ai = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/hero.png"
+                            src="https:// /notes/chatgpt/hero.png"
                             alt="Image of a robot with a laptop"
                             width="100%"
                             height="auto"
@@ -97,7 +97,7 @@ const Ai = () => {
                         ripe for automation. It’s simply a matter of time.
                       </p>
                       <a
-                        href="https://www.etsy.com/listing/1392874311/surrender-artist-print"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -111,7 +111,7 @@ const Ai = () => {
                         >
                           <figure className="svelte-cmqfoo">
                             <img
-                              src="https://www.seanhalpin.xyz/notes/chatgpt/robots.jpg"
+                              src="https:// /notes/chatgpt/robots.jpg"
                               alt="Cartoon depicting a robot telling a human they are obsolete"
                               width="100%"
                               height="auto"
@@ -138,7 +138,7 @@ const Ai = () => {
                         Having been immersed in AI for the past number of months, along
                         with recently designing and shipping Help Scout’s
                         <a
-                          href="https://www.helpscout.com/blog/introducing-ai-from-help-scout/"
+                          href="#"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -172,11 +172,11 @@ const Ai = () => {
                           autoPlay=""
                           loop=""
                           preload="auto"
-                          poster="https://www.seanhalpin.xyz/notes/how-i-code-with-ai"
+                          poster="https:// /notes/how-i-code-with-ai"
                           className="svelte-1q0lkgh"
                         >
                           <source
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/plugin.mp4"
+                            src="https:// /notes/chatgpt/plugin.mp4"
                             type="video/mp4"
                           />
                         </video>
@@ -201,7 +201,7 @@ const Ai = () => {
                       <p>
                         There are several Figma plugins, such as
                         <a
-                          href="https://www.figma.com/community/plugin/749195619095691211"
+                          href="#"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -250,11 +250,11 @@ const Ai = () => {
                           autoPlay=""
                           loop=""
                           preload="auto"
-                          poster="https://www.seanhalpin.xyz/notes/how-i-code-with-ai"
+                          poster="https:// /notes/how-i-code-with-ai"
                           className="svelte-1q0lkgh"
                         >
                           <source
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/figma-rest.mp4"
+                            src="https:// /notes/chatgpt/figma-rest.mp4"
                             type="video/mp4"
                           />
                         </video>
@@ -297,7 +297,7 @@ const Ai = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/team.jpg"
+                            src="https:// /notes/chatgpt/team.jpg"
                             alt="Photo of Help Scouts Product Design team"
                             width="100%"
                             height="auto"
@@ -328,7 +328,7 @@ const Ai = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/figjam.png"
+                            src="https:// /notes/chatgpt/figjam.png"
                             alt="Screenshot of a FigJam board with a variety of copy ideas"
                             width="100%"
                             height="auto"
@@ -353,7 +353,7 @@ const Ai = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/chatgpt/principles.png"
+                            src="https:// /notes/chatgpt/principles.png"
                             alt="Screenshot that reads: Respectful, Effortless, Familiar"
                             width="100%"
                             height="auto"
@@ -435,7 +435,7 @@ const Ai = () => {
                             </div>
                           </button>
                           <a
-                            href="https://twitter.com/share?url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fhow-i-code-with-ai"
+                            href="https://twitter.com/share?url=https%3A%2F%2F luckiemumba.xyz.com%2Fnotes%2Fhow-i-code-with-ai"
                             className="newsletter-link svelte-9xj1dk"
                             title="Share on twitter"
                             target="_blank"
@@ -463,7 +463,7 @@ const Ai = () => {
                             </div>
                           </a>
                           <a
-                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fhow-i-code-with-ai"
+                            href="httl=https%3A%2F%2F luckiemumba.xyz.com%2Fnotes%2Fhow-i-code-with-ai"
                             className="newsletter-link svelte-9xj1dk"
                             target="_blank"
                             title="Share on LinkedIn"

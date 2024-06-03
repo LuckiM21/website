@@ -46,7 +46,7 @@ const CssPage = () => {
                               <div className="avatar svelte-1oghubx initial">
                                 <figure className="svelte-cmqfoo skeleton">
                                   <img
-                                    src="https://www.seanhalpin.xyz/about/avatar.png"
+                                    src="https:// /about/avatar.png"
                                     alt="Seán Halpin"
                                     width="32"
                                     height="32"
@@ -75,7 +75,7 @@ const CssPage = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/cssart/hero.png"
+                            src="https:// /notes/cssart/hero.png"
                             alt="Abstract image dipicting CSS art"
                             width="100%"
                             height="auto"
@@ -96,7 +96,7 @@ const CssPage = () => {
                         Yet, during an intense period — wrapping up my final months at
                         Help Scout
                         <a
-                          href="https://www.helpscout.com/ai-features/"
+                          href="#/"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -104,7 +104,7 @@ const CssPage = () => {
                         </a>
                         , diving into an
                         <a
-                          href="https://www.droplette.app/"
+                          href="#"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -112,7 +112,7 @@ const CssPage = () => {
                         </a>
                         , quietly
                         <a
-                          href="https://www.docsthemepro.com/"
+                          href="#"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -120,7 +120,7 @@ const CssPage = () => {
                         </a>
                         , and on the cusp of leading design at
                         <a
-                          href="https://www.givedirectly.org/"
+                          href="#"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -1099,7 +1099,7 @@ const CssPage = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https://www.seanhalpin.xyz/notes/cssart/ep133-colors.png"
+                            src="https:// /notes/cssart/ep133-colors.png"
                             alt="colour palette for the ep-133"
                             width="100%"
                             height="auto"
@@ -1681,7 +1681,7 @@ const CssPage = () => {
                             </div>
                           </button>
                           <a
-                            href="https://twitter.com/share?url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fcss-for-kicks"
+                            href="https://twitter.com/share?url=https%3A%2F%2F luckiemumba.xyz.com%2Fnotes%2Fcss-for-kicks"
                             className="newsletter-link svelte-9xj1dk"
                             title="Share on twitter"
                             target="_blank"
@@ -1709,7 +1709,7 @@ const CssPage = () => {
                             </div>
                           </a>
                           <a
-                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fseanhalpin.xyz.com%2Fnotes%2Fcss-for-kicks"
+                            href="#"
                             className="newsletter-link svelte-9xj1dk"
                             target="_blank"
                             title="Share on LinkedIn"

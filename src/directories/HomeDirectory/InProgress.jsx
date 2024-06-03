@@ -32,7 +32,7 @@ const InProgress = () => {
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="https://www.halpin.xyz/work/doodler"
+              href="#"
             >
               <div className="card-wrap svelte-vd84gr">
                 <div className="info svelte-vd84gr">
@@ -70,7 +70,7 @@ const InProgress = () => {
               // sveltekit:prefetch=""
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
-              href="https://www.seanhalpin.xyz/work/droplette"
+              href="https:// /work/droplette"
             >
               <div className="card-wrap svelte-vd84gr">
                 <div className="info svelte-vd84gr">
