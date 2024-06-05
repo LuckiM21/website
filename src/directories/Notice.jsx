@@ -4,7 +4,6 @@ const Notice = () => {
     <div style={{
       justifyContent: 'center',
       position: "fixed"
-
     }}>
       <a href="" className="button svelte-1s0lt5v">
         website under construction
