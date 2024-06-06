@@ -46,8 +46,8 @@ const CssPage = () => {
                               <div className="avatar svelte-1oghubx initial">
                                 <figure className="svelte-cmqfoo skeleton">
                                   <img
-                                    src="https:// /about/avatar.png"
-                                    alt="Seán Halpin"
+                                    src="../../../assets/images/avators/Avator.jpg"
+                                    alt="Luckie Mumba"
                                     width="32"
                                     height="32"
                                     loading="lazy"
@@ -92,45 +92,9 @@ const CssPage = () => {
                         was a tool for communication and problem-solving, not an end in
                         itself.
                       </p>
-                      <p>
-                        Yet, during an intense period — wrapping up my final months at
-                        Help Scout
-                        <a
-                          href="#/"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          shipping neat features
-                        </a>
-                        , diving into an
-                        <a
-                          href="#"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          ambitious AI side project
-                        </a>
-                        , quietly
-                        <a
-                          href="#"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          launching another
-                        </a>
-                        , and on the cusp of leading design at
-                        <a
-                          href="#"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          GiveDirectly
-                        </a>
-                        — I found myself completely fatigued. It wasn’t just physical
-                        exhaustion; I was creatively spent. The past year of
-                        purpose-driven work had made me drained.
-                      </p>
+
                       <h2>Code as a refuge</h2>
+                      <br />
                       <p>
                         Over the years, coding had become a refuge of sorts. It engaged
                         my brain in ways designing didn’t. So much of its binary in
@@ -144,7 +108,7 @@ const CssPage = () => {
                         scrutiny.
                       </p>
                       <p>
-                        During this time, Teenage Engineering launched the
+                        Sometime back, Teenage Engineering launched the `
                         <a
                           href="https://teenage.engineering/products/ep-133"
                           rel="noopener noreferrer"
@@ -1588,7 +1552,7 @@ const CssPage = () => {
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          Codepen by Nicolas Jesenberger
+                          ` Codepen by Nicolas Jesenberger `
                         </a>
                         that helped me understand the mechanics.
                       </p>
@@ -1616,6 +1580,7 @@ const CssPage = () => {
                         </div>
                       </div>
                       <h2>To be continued</h2>
+                      <br />
                       <p>
                         Overall, I’m happy with the outcome. There’s plenty of room for
                         improvement, but I don’t believe thats the point of projects
