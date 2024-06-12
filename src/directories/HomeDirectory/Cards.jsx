@@ -47,7 +47,12 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
               </div>
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+                style={{
+                  background: "var(--color-pink)",
+                  color: "var(--color-text-bold)",
+                }}
+              >
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Help Scout</span>
                   <h2>AI</h2>
@@ -103,7 +108,12 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
               </div>
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+                style={{
+                  background: "var(--color-mint)",
+                  color: "var(--color-text-bold)",
+                }}
+              >
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Help Scout</span>
                   <h2>Articles</h2>
@@ -159,7 +169,12 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
               </div>
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+                style={{
+                  background: "var(--color-rust)",
+                  color: "var(--color-text-bold)",
+                }}
+              >
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Figma</span>
                   <h2>Plugins</h2>
@@ -207,7 +222,11 @@ const Cards = () => {
                   className="svelte-vd84gr"
                 />
               </div>
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+                style={{
+                  background: "var(--color-babyblue)",
+                  color: "var(--color-text-bold)",
+                }}>
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Help Scout</span>
                   <h2>Mobile</h2>

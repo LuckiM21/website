@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import hero from '../../../assets/images/cards/hero (1).png'
 
 const Ai = () => {
   return (
@@ -26,7 +27,7 @@ const Ai = () => {
                           height="15"
                           viewBox="0 0 13 15"
                           fill="none"
-                        // xmlns="http://www.w3.org/2000/svg"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
                             fillRule="evenodd"
@@ -75,7 +76,7 @@ const Ai = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https:// /notes/chatgpt/hero.png"
+                            src={hero}
                             alt="Image of a robot with a laptop"
                             width="100%"
                             height="auto"
@@ -85,13 +86,13 @@ const Ai = () => {
                         </figure>
                       </div>
                       <p>
-                        AI is here to eat all the things. I agree with
+                        AI is here to eat all the things. I agree with `
                         <a
                           href="https://mailchi.mp/eab7a0eacb6a/ai-design-system-20230502?e=8f8a54d0a5"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          Design Dept’s Mia Blume
+                          Design Dept’s Mia Blume `
                         </a>
                         in their assessment that large swaths of the design process are
                         ripe for automation. It’s simply a matter of time.
@@ -101,7 +102,7 @@ const Ai = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <div
+                        {/* <div
                           style={{
                             display: 'contents',
                             '--maxwidth': '588px',
@@ -119,7 +120,7 @@ const Ai = () => {
                               className="svelte-cmqfoo skip maxwidth alignment"
                             />
                           </figure>
-                        </div>
+                        </div> */}
                       </a>
                       <p>
                         Rather than pushing back against this development, I feel it’s
@@ -130,26 +131,18 @@ const Ai = () => {
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          already doing this
+                          `` already doing this
                         </a>
                         , and designers should too.
                       </p>
                       <p>
-                        Having been immersed in AI for the past number of months, along
-                        with recently designing and shipping Help Scout’s
-                        <a
-                          href="#"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        >
-                          first AI features
-                        </a>
-                        , I wanted to share how I’ve started to bring AI into my day to
+                        Having been immersed in AI for the past number of months,
+                        I wanted to share how I’ve started to bring AI into my day to
                         day.
                       </p>
                       <h2>Real fake data</h2>
                       <p>
-                        As designers, we want to make things look pretty. One of the
+                        As a front-end web designer and developer, I want to make things look pretty. One of the
                         pitfalls of working in an abstraction like Figma, is that we are
                         detached from the real data that will eventually power our
                         designs.
@@ -160,7 +153,7 @@ const Ai = () => {
                         sense of what real data will look like in our designs, or ‘real
                         fake data’ as I like to call it.
                       </p>
-                      <p>
+                      {/* <p>
                         In the below example, I run a rudimentary prompt through OpenAI
                         to generate a conversation between a customer and a support
                         agent. I then use that data to populate a mock conversation in
@@ -180,8 +173,8 @@ const Ai = () => {
                             type="video/mp4"
                           />
                         </video>
-                      </figure>
-                      <p>
+                      </figure> */}
+                      {/* <p>
                         While the above may seem complex, the prompt in of itself is
                         not. You can accomplish similar results using
                         <a
@@ -192,7 +185,7 @@ const Ai = () => {
                           OpenAI’s chat
                         </a>
                         .
-                      </p>
+                      </p> */}
                       <p>
                         To go one step deeper, you can ask OpenAI to generate a response
                         in JSON. At this point you have the building blocks for how data
@@ -201,7 +194,7 @@ const Ai = () => {
                       <p>
                         There are several Figma plugins, such as
                         <a
-                          href="#"
+                          href="https://www.figma.com/community/plugin/749195619095691211"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -222,7 +215,7 @@ const Ai = () => {
                         >
                           GitHub’s Copilot
                         </a>
-                        is one of the better known examples of AI assisting developers.
+                        ` is one of the better known examples of AI assisting developers.
                         It uses OpenAI’s GPT-3 to generate code based on the context of
                         the code you are writing.
                       </p>
@@ -244,7 +237,7 @@ const Ai = () => {
                         Copilot an invaluable tool. It’s been a game changer in terms of
                         the work I’m able to accomplish.
                       </p>
-                      <figure className="video svelte-1q0lkgh shadow">
+                      {/* <figure className="video svelte-1q0lkgh shadow">
                         <video
                           // playsinline=""
                           autoPlay=""
@@ -258,8 +251,8 @@ const Ai = () => {
                             type="video/mp4"
                           />
                         </video>
-                      </figure>
-                      <p>
+                      </figure> */}
+                      {/* <p>
                         I shared this video with my design team about how I connected to
                         Figma’s REST API with OpenAI. Using natural language, I’m able
                         to query Help Scouts Design System (HSDS), discover if a
@@ -270,7 +263,7 @@ const Ai = () => {
                         was created completely from prompting, all the way from
                         understanding how to create a Python app, to displaying the
                         linked results.
-                      </p>
+                      </p> */}
                       <p>
                         I don’t know about you, but I find that pretty amazing. It’s a
                         level of complexity that would have taken me hours, or even
@@ -283,11 +276,8 @@ const Ai = () => {
                         less time time sweating over micro copy and more time dialing in
                         the overall experience.
                       </p>
-                      <p>
-                        Recently, the Help Scout Product Designers got together in
-                        Boston to reevaluate our product design principles.
-                      </p>
-                      <div
+
+                      {/* <div
                         style={{
                           display: 'contents',
                           '--maxwidth': '768px',
@@ -305,19 +295,19 @@ const Ai = () => {
                             className="svelte-cmqfoo skip maxwidth alignment"
                           />
                         </figure>
-                      </div>
+                      </div> */}
                       <p>
-                        We spent the majority of our time in FigJam, brainstorming
-                        principles that reflected the values we wanted to bring to the
+                        I spend the majority of our time in Figma, brainstorming
+                        principles that reflected the values I want to bring to the
                         work.
                       </p>
                       <p>
-                        As we got closer to narrowing in on what the principles were, we
-                        leveraged chatGPT as a first pass on copy ideas. This let us
+                        As I got closer to narrowing in on what the principles are, I
+                        leveraged chatGPT as a first pass on copy ideas. This let me
                         have working examples to iterate on, rather than starting from
                         scratch.
                       </p>
-                      <div
+                      {/* <div
                         style={{
                           display: 'contents',
                           '--maxwidth': '768px',
@@ -336,15 +326,15 @@ const Ai = () => {
                             className="svelte-cmqfoo skip maxwidth alignment"
                           />
                         </figure>
-                      </div>
+                      </div> */}
                       <p>
-                        This unlocked us so many times. Writing is tough! It’s hard to
+                        This unlocked me so many times. <strong>Writing is tough!</strong> It’s hard to
                         come up with the right words to convey the right message. AI
-                        helped that process move along and prevented us from getting
+                        helpes that process move along and prevents me from getting
                         stuck.
                       </p>
                       <p>I’m really delighted with the results.</p>
-                      <div
+                      {/* <div
                         style={{
                           display: 'contents',
                           '--maxwidth': '768px',
@@ -361,20 +351,20 @@ const Ai = () => {
                             className="svelte-cmqfoo skip maxwidth alignment"
                           />
                         </figure>
-                      </div>
+                      </div> */}
                       <h2>Change</h2>
                       <p>
                         I’m still scratching the surface of what’s possible with AI.
-                        It’s been eye-opening to see how how quickly changes have taken
+                        It’s been eye-opening to see how quickly changes have taken
                         place, and how much more is on the horizon.
                       </p>
                       <p>
-                        Rather than being pessimistic about our jobs, I’m excited to see
-                        what the future brings. But we need to be realistic, and
-                        understand that our roles will change, and change significantly.
+                        Rather than being pessimistic about my jobs, I’m excited to see
+                        what the future brings. But I need to be realistic, and
+                        understand that my roles will change, and change significantly.
                       </p>
                       <p>
-                        How we prepare with AI today will go a long way to how we handle
+                        How I prepare with AI today will go a long way to how we handle
                         the changes of tomorrow.
                       </p>
                     </article>

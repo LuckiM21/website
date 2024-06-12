@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import colorpalate from '../../../assets/images/cards/ep133-colors.png'
+import heroImage from '../../../assets/images/cards/hero.png'
 const CssPage = () => {
   return (
     <>
@@ -75,7 +77,7 @@ const CssPage = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https:// /notes/cssart/hero.png"
+                            src={heroImage}
                             alt="Abstract image dipicting CSS art"
                             width="100%"
                             height="auto"
@@ -1038,12 +1040,7 @@ const CssPage = () => {
                         </div>
                       </div>
                       <p>
-                        Above is the outcome. Switching to ‘blueprint’ mode, you can see
-                        the underlying structure. It’s interesting to see how clear and
-                        simple the layout is when the complexity of the visuals is
-                        stripped away. The excellent UI and colour choices by Teenage
-                        Engineering are what makes this device so tactile and appealing,
-                        in my view.
+                        Above is the outcome.
                       </p>
                       <p>
                         Here’s a short walkthrough for how I approached the project.
@@ -1063,7 +1060,7 @@ const CssPage = () => {
                       >
                         <figure className="svelte-cmqfoo">
                           <img
-                            src="https:// /notes/cssart/ep133-colors.png"
+                            src={colorpalate}
                             alt="colour palette for the ep-133"
                             width="100%"
                             height="auto"

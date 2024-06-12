@@ -18,8 +18,7 @@ import CssPage from './directories/NotesDirectory/NotesCardPages/CssPage'
 import Ai from './directories/NotesDirectory/NotesCardPages/Ai'
 import Architecture from './directories/NotesDirectory/NotesCardPages/Architecture'
 import Throwaways from './directories/NotesDirectory/NotesCardPages/Throwaways'
-// import Bg from './Pages/Bg'
-
+import ArtProjects from './directories/ProjectsDirectory/InlinePages/ArtProjects'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout />}>
@@ -29,6 +28,7 @@ const router = createBrowserRouter(
       <Route path="/Notes" element={<NotesPage />} />
       <Route path="/Login" element={<LoginPage />} />
       <Route path="/WebProjects" element={<WebProjects />} />
+      <Route path='/ArtProjects' element={<ArtProjects />} />
       <Route path="/Css" element={<CssPage />} />
       <Route path="/Ai" element={<Ai />} />
       <Route path="/Architecture" element={<Architecture />} />

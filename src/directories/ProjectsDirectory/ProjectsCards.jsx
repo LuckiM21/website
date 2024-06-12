@@ -133,7 +133,7 @@ const PlayCards
         <div className="showcase-holder svelte-18wal5">
 
           <div className="showcase svelte-18wal5">
-            <Link to="#" className="showcase-block svelte-18wal5">
+            <Link to="/ArtProjects" className="showcase-block svelte-18wal5">
               <div className="showcase-inner svelte-18wal5">
                 <div className="deets svelte-18wal5">
                   <div className="title svelte-18wal5">

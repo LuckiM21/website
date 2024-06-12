@@ -13,7 +13,9 @@
 }
 
 
-
+.card-wrap {
+  background-color: "var(--color-pink)";
+}
 
 
 canvas.svelte-firmm6.svelte-firmm6 {

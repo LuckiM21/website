@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import hero from '../../../assets/images/cards/hero (2).png'
 const Throwaways = () => {
   return (
     <>
@@ -11,9 +12,7 @@ const Throwaways = () => {
                   className="close svelte-9xj1dk"
                   to="/Notes"
                   tabIndex="0"
-                // sveltekit:prefetch=""
-                // data-sveltekit-preload-code=""
-                // data-sveltekit-preload-data=""
+
                 >
                   <svg
                     width="13"
@@ -40,8 +39,8 @@ const Throwaways = () => {
                         <div className="avatar svelte-1oghubx initial">
                           <figure className="svelte-cmqfoo skeleton">
                             <img
-                              src="https:// /about/avatar.png"
-                              alt="Seán Halpin"
+                              src="../../../assets/images/avators/Avator.jpg"
+                              alt="Luckie Mumba"
                               width="32"
                               height="32"
                               loading="lazy"
@@ -70,7 +69,7 @@ const Throwaways = () => {
                 >
                   <figure className="svelte-cmqfoo">
                     <img
-                      src="https:// /notes/throwaway/hero.png"
+                      src={hero}
                       alt="Image of a project with an X over it"
                       width="768"
                       height="476"
@@ -133,7 +132,7 @@ const Throwaways = () => {
                   a way to do so.
                 </p>
                 <figure className="video svelte-1q0lkgh shadow">
-                  <video
+                  {/* <video
 
                     autoPlay=""
                     loop=""
@@ -145,12 +144,12 @@ const Throwaways = () => {
                       src="https:// /notes/throwaway/player.mp4"
                       type="video/mp4"
                     />
-                  </video>
+                  </video> */}
                 </figure>
                 <p>
                   <strong>Why didn’t it work?</strong> Paradoxically, capturing
                   the moment takes you out of it. I couldn’t work the action of
-                  recording my mood into listening to music. It’s like the
+                  recording my mood into listening to music. It’s like the `
                   <a
                     href="https://youtu.be/3Iyugz1bjyw?t=288"
                     rel="noopener noreferrer"
@@ -158,13 +157,13 @@ const Throwaways = () => {
                   >
                     dystopian Vision Pro promo
                   </a>
-                  Apple released, where the parent is recording their child’s
+                  ` Apple released, where the parent is recording their child’s
                   birthday in VR/AR, meaning they are never really in the moment
                   in the first place.
                 </p>
                 <h2>Tada</h2>
                 <p>
-                  I wanted to find a todo list I could share with my fiancé that
+                  I wanted to find a todo list I could share with others that
                   didn’t involve a monthly subscription fee. I have to draw the
                   line at subscription services somewhere, and todo lists is it.
                   Turns out that’s hard to find! Todo lists are the base example
@@ -178,7 +177,7 @@ const Throwaways = () => {
                   </a>
                   app, so I figured it would be possible to make my own.
                 </p>
-                <div
+                {/* <div
                   style={{
                     display: 'contents',
                     '--radius': '0',
@@ -195,9 +194,9 @@ const Throwaways = () => {
                       className="svelte-cmqfoo fit skip fullwidth"
                     />
                   </figure>
-                </div>
+                </div> */}
                 <p>I thought it’d be fun to try out some playful UIs.</p>
-                <div
+                {/* <div
                   style={{
                     display: 'contents',
                     '--radius': 'var(--radius-base)',
@@ -214,7 +213,7 @@ const Throwaways = () => {
                       className="svelte-cmqfoo fit skip fullwidth"
                     />
                   </figure>
-                </div>
+                </div> */}
                 <p>
                   <strong>Why didn’t it work?</strong> Because it’s web based
                   and not a native app.
@@ -242,7 +241,7 @@ const Throwaways = () => {
                   social media person, and wanted control and privacy over my
                   content.
                 </p>
-                <figure className="video svelte-1q0lkgh shadow">
+                {/* <figure className="video svelte-1q0lkgh shadow">
                   <video
 
                     autoPlay=""
@@ -256,7 +255,7 @@ const Throwaways = () => {
                       type="video/mp4"
                     />
                   </video>
-                </figure>
+                </figure> */}
                 <p>
                   <strong>Why didn’t it work?</strong> The jury is still out on
                   this one — but the stumbling blocks I’ve encountered are

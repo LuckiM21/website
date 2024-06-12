@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const WebProjects = () => {
   return (
     <>
@@ -6,14 +6,36 @@ const WebProjects = () => {
         <div className="article-holder svelte-9xj1dk">
           <div className="article-inner svelte-9xj1dk">
             <div className="article svelte-9xj1dk">
+              <div className="close-holder svelte-9xj1dk __web-inspector-hide-shortcut__">
+                <Link
+                  className="close svelte-9xj1dk"
+                  tabIndex="0"
+                  data-sveltekit-preload-code=""
+                  data-sveltekit-preload-data=""
+                  to="/projects"
+                >
+                  <svg
+                    width="13"
+                    height="15"
+                    viewBox="0 0 13 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M1.73716 0.324281C1.36397 -0.0828384 0.731405 -0.110341 0.324286 0.262851C-0.0828328 0.636044 -0.110336 1.26861 0.262857 1.67573L5.3632 7.23974L0.262845 12.8038C-0.110348 13.2109 -0.0828447 13.8434 0.324274 14.2166C0.731393 14.5898 1.36396 14.5623 1.73715 14.1552L6.5 8.95938L11.2628 14.1552C11.636 14.5623 12.2686 14.5898 12.6757 14.2166C13.0828 13.8434 13.1103 13.2109 12.7372 12.8038L7.63681 7.23975L12.7372 1.67573C13.1104 1.26861 13.0829 0.636044 12.6757 0.262851C12.2686 -0.110341 11.636 -0.0828384 11.2629 0.324281L6.50001 5.52011L1.73716 0.324281Z"
+                      className="svelte-9xj1dk"
+                    ></path>
+                  </svg>
+                </Link>
+              </div>
               <article className="svelte-9xj1dk">
                 <div className="close-holder svelte-9xj1dk">
-
                 </div>
                 <h1>Web Projects</h1>
 
                 <div className="date svelte-y08q9b">
-
                   <span className="mood svelte-y08q9b">Feeling puntastic</span>
                   <span>•</span>
                   <span>
@@ -45,41 +67,25 @@ const WebProjects = () => {
                   CSS art never captivated me from a creator`s perspective.
                   Despite seeing amazing examples, the idea of investing time in
                   what seemed like an aimless endeavor puzzled me. To me, design
-                  was a tool for communication and problem-solving, not an end in
-                  itself.
+                  was a tool for communication and problem-solving, not an end
+                  in itself.
                 </p>
                 <p>
                   Yet, during an intense period — wrapping up my final months at
                   Help Scout
-                  <a
-                    href="#"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="#" rel="noopener noreferrer" target="_blank">
                     shipping neat features
                   </a>
                   , diving into an
-                  <a
-                    href="#"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="#" rel="noopener noreferrer" target="_blank">
                     ambitious AI side project
                   </a>
                   , quietly
-                  <a
-                    href="#"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="#" rel="noopener noreferrer" target="_blank">
                     launching another
                   </a>
                   , and on the cusp of leading design at
-                  <a
-                    href="#"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <a href="#" rel="noopener noreferrer" target="_blank">
                     GiveDirectly
                   </a>
                   — I found myself completely fatigued. It wasn`t just physical
@@ -88,11 +94,11 @@ const WebProjects = () => {
                 </p>
                 <h2>Code as a refuge</h2>
                 <p>
-                  Over the years, coding had become a refuge of sorts. It engaged
-                  my brain in ways designing didn`t. So much of its binary in
-                  aspect. It either works or it doesn`t. The grey area often found
-                  when designing is less apparent with code, and so it had evolved
-                  into an enjoyable pastime.
+                  Over the years, coding had become a refuge of sorts. It
+                  engaged my brain in ways designing didn`t. So much of its
+                  binary in aspect. It either works or it doesn`t. The grey area
+                  often found when designing is less apparent with code, and so
+                  it had evolved into an enjoyable pastime.
                 </p>
                 <p>
                   I craved a project that would let me wear my coding hat whilst
@@ -114,33 +120,37 @@ const WebProjects = () => {
                 </p>
                 <p>
                   For the first time, I was interested in recreating something
-                  with CSS for the sake of it. It was time to disengage my design
-                  brain and play!
+                  with CSS for the sake of it. It was time to disengage my
+                  design brain and play!
                 </p>
                 {/* ----------------------------------------white spaces------------------------ */}
                 <div>
-
-                  <p className="ep-133-holder svelte-1u4x8wq">here is a portfolio website</p>
+                  <p className="ep-133-holder svelte-1u4x8wq">
+                    here is a portfolio website
+                  </p>
                   <div className="ep-133-holder svelte-1u4x8wq">
-                    <img src="../resources/showcase/showcase_browso-dm.png" alt="image" />
+                    <img
+                      src="../resources/showcase/showcase_browso-dm.png"
+                      alt="image"
+                    />
                   </div>
                 </div>
                 <p>
-                  Above is the outcome. Switching to `blueprint`` mode, you can see
-                  the underlying structure. It`s interesting to see how clear and
-                  simple the layout is when the complexity of the visuals is
-                  stripped away. The excellent UI and colour choices by Teenage
-                  Engineering are what makes this device so tactile and appealing,
-                  in my view.
+                  Above is the outcome. Switching to `blueprint`` mode, you can
+                  see the underlying structure. It`s interesting to see how
+                  clear and simple the layout is when the complexity of the
+                  visuals is stripped away. The excellent UI and colour choices
+                  by Teenage Engineering are what makes this device so tactile
+                  and appealing, in my view.
                 </p>
                 <p>
                   Here`s a short walkthrough for how I approached the project.
                 </p>
                 <h2>Getting the colours right</h2>
                 <p>
-                  An important first step — getting the colours right. I used the
-                  reliable eye-picker tool to identify the gradient values for
-                  each element and then replicated these elements in Figma.
+                  An important first step — getting the colours right. I used
+                  the reliable eye-picker tool to identify the gradient values
+                  for each element and then replicated these elements in Figma.
                 </p>
                 <div
                   className="
@@ -167,15 +177,15 @@ const WebProjects = () => {
                 </p>
                 {/* -------------------------callout-------------------------------------- */}
                 <div className="callout svelte-n9q8ts">
-                  This approach is fine for CSS art, but I`m hesitant to recommend
-                  it for production code. I found the CSS generated by Figma at
-                  times confusing when using CSS variables.
+                  This approach is fine for CSS art, but I`m hesitant to
+                  recommend it for production code. I found the CSS generated by
+                  Figma at times confusing when using CSS variables.
                 </div>
                 <p>
                   If you dig into the code, you`ll notice quite a number of
-                  instances where I`ve used CSS grid. The overall architecture of
-                  the device lends itself well to this approach. The underlying
-                  code uses `
+                  instances where I`ve used CSS grid. The overall architecture
+                  of the device lends itself well to this approach. The
+                  underlying code uses `
                   <a
                     href="https://svelte.dev/"
                     rel="noopener noreferrer"
@@ -194,15 +204,16 @@ const WebProjects = () => {
                   and apply the appropriate colours and box-shadows.
                 </p>
 
-
                 <h2>To be continued</h2>
                 <p></p>
-                <p> Overall, I`m happy with the progress. There`s plenty of room for
-                  improvement.</p>
                 <p>
-                  The process, the learning, and the joy of
-                  creating something is just wondafoul . I`ll be back to create
-                  more in the future.
+                  {" "}
+                  Overall, I`m happy with the progress. There`s plenty of room
+                  for improvement.
+                </p>
+                <p>
+                  The process, the learning, and the joy of creating something
+                  is just wondafoul . I`ll be back to create more in the future.
                 </p>
               </article>
               {/* --------------------------------------------------------------------WEB APPS----------------------------------------------------------------------- */}
@@ -212,31 +223,50 @@ const WebProjects = () => {
                   <a href="#" className="showcase-block svelte-18wal5 big">
                     <div className="showcase-inner svelte-18wal5">
                       <div className="deets svelte-18wal5">
-                        <div className="title svelte-18wal5">
-                          Clicker Game
-                        </div>
+                        <div className="title svelte-18wal5">Clicker Game</div>
                         <span className="description svelte-18wal5">
-                          Instantly spec out your designs so developers can have no excuses.
-                          Here are some awesome websites and templates that i built,
-                          as part of my Css, HTML, and Javascript practices.
-                          <ul >
-                            <li className='svelte-gfa3ns'>
-                              <a href="#" target="_blank" rel="nofollow noreferrer" className="svelte-gfa3ns">
+                          Instantly spec out your designs so developers can have
+                          no excuses. Here are some awesome websites and
+                          templates that i built, as part of my Css, HTML, and
+                          Javascript practices.
+                          <ul>
+                            <li className="svelte-gfa3ns">
+                              <a
+                                href="#"
+                                target="_blank"
+                                rel="nofollow noreferrer"
+                                className="svelte-gfa3ns"
+                              >
                                 Portfolio templates
                               </a>
                             </li>
-                            <li className='svelte-gfa3ns'>
-                              <a href="#" target="_blank" rel="nofollow noreferrer" className="svelte-gfa3ns">
+                            <li className="svelte-gfa3ns">
+                              <a
+                                href="#"
+                                target="_blank"
+                                rel="nofollow noreferrer"
+                                className="svelte-gfa3ns"
+                              >
                                 Portfolio templates
                               </a>
                             </li>
-                            <li className='svelte-gfa3ns'>
-                              <a href="#" target="_blank" rel="nofollow noreferrer" className="svelte-gfa3ns">
+                            <li className="svelte-gfa3ns">
+                              <a
+                                href="#"
+                                target="_blank"
+                                rel="nofollow noreferrer"
+                                className="svelte-gfa3ns"
+                              >
                                 Portfolio templates
                               </a>
                             </li>
-                            <li className='svelte-gfa3ns'>
-                              <a href="#" target="_blank" rel="nofollow noreferrer" className="svelte-gfa3ns">
+                            <li className="svelte-gfa3ns">
+                              <a
+                                href="#"
+                                target="_blank"
+                                rel="nofollow noreferrer"
+                                className="svelte-gfa3ns"
+                              >
                                 Portfolio templates
                               </a>
                             </li>
@@ -261,8 +291,10 @@ const WebProjects = () => {
                           Todo Application
                         </div>
                         <span className="description svelte-18wal5">
-                          Always keep track of whats supposed to be done - comes in nasty
-                          pink... Here you will find multiple fully functional web applications that I built using React, TypeScrypt, Css(Tiwind) and HTML.
+                          Always keep track of whats supposed to be done - comes
+                          in nasty pink... Here you will find multiple fully
+                          functional web applications that I built using React,
+                          TypeScrypt, Css(Tiwind) and HTML.
                         </span>
                       </div>
                       <div className="shot-holder svelte-18wal5">
@@ -277,11 +309,10 @@ const WebProjects = () => {
                   <a href="#" className="showcase-block svelte-18wal5">
                     <div className="showcase-inner svelte-18wal5">
                       <div className="deets svelte-18wal5">
-                        <div className="title svelte-18wal5">
-                          Chat App
-                        </div>
+                        <div className="title svelte-18wal5">Chat App</div>
                         <span className="description svelte-18wal5">
-                          Chat, rage, or table flip about design with your team with this chat app prototype.
+                          Chat, rage, or table flip about design with your team
+                          with this chat app prototype.
                         </span>
                       </div>
                       <div className="shot-holder svelte-18wal5">
@@ -305,14 +336,18 @@ const WebProjects = () => {
                           </span>
                         </div>
                         <span className="description svelte-18wal5">
-                          Document A11y concerns to start conversations with developers.
+                          Document A11y concerns to start conversations with
+                          developers.
                         </span>
                         <span className="description svelte-18wal5">
-                          Currently Creating an AI enhanced color palettes Plugin in Figma based on your color system..
-                          Once its complete it will be available on this section..
+                          Currently Creating an AI enhanced color palettes
+                          Plugin in Figma based on your color system.. Once its
+                          complete it will be available on this section..
                         </span>
                         <span className="description svelte-18wal5">
-                          <b><i>As for now stay tuned</i></b>
+                          <b>
+                            <i>As for now stay tuned</i>
+                          </b>
                         </span>
                         <div className="preview-holder svelte-18wal5">
                           <div className="preview svelte-18wal5">
@@ -322,60 +357,58 @@ const WebProjects = () => {
                       </div>
                     </div>
                   </div>
-                  <a href="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
-                    <div className="deets svelte-18wal5">
-                      <div className="title svelte-18wal5">
-                        Theme Time
+                  <a href="#" className="showcase-block svelte-18wal5">
+                    <div className="showcase-inner svelte-18wal5">
+                      <div className="deets svelte-18wal5">
+                        <div className="title svelte-18wal5">Theme Time</div>
+                        <span className="description svelte-18wal5">
+                          Check your time here... but the year`s 1999.
+                        </span>
                       </div>
-                      <span className="description svelte-18wal5">
-                        Check your time here...
-                        but the year`s 1999.
-                      </span>
-                    </div>
-                    <div className="shot-holder svelte-18wal5">
-                      <div className="shot svelte-18wal5">
-                        <figure className="svelte-cmqfoo">
-                          {/* <img src={SixthCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
-                        </figure>
+                      <div className="shot-holder svelte-18wal5">
+                        <div className="shot svelte-18wal5">
+                          <figure className="svelte-cmqfoo">
+                            {/* <img src={SixthCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
+                          </figure>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
-                  <a href="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
-                    <div className="deets svelte-18wal5">
-                      <div className="title svelte-18wal5">
-                        Job Search
+                  <a href="#" className="showcase-block svelte-18wal5">
+                    <div className="showcase-inner svelte-18wal5">
+                      <div className="deets svelte-18wal5">
+                        <div className="title svelte-18wal5">Job Search</div>
+                        <span className="description svelte-18wal5">
+                          Let folks know what`s up with status thumbnails for
+                          your work.
+                        </span>
                       </div>
-                      <span className="description svelte-18wal5">
-                        Let folks know what`s up with status thumbnails for your work.
-                      </span>
-                    </div>
-                    <div className="shot-holder svelte-18wal5">
-                      <div className="shot svelte-18wal5">
-                        <figure className="svelte-cmqfoo">
-                          {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
-                        </figure>
+                      <div className="shot-holder svelte-18wal5">
+                        <div className="shot svelte-18wal5">
+                          <figure className="svelte-cmqfoo">
+                            {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
+                          </figure>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
-                  <a href="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
-                    <div className="deets svelte-18wal5">
-                      <div className="title svelte-18wal5">
-                        Other
+                  <a href="#" className="showcase-block svelte-18wal5">
+                    <div className="showcase-inner svelte-18wal5">
+                      <div className="deets svelte-18wal5">
+                        <div className="title svelte-18wal5">Other</div>
+                        <span className="description svelte-18wal5">
+                          Let folks know what`s up with status thumbnails for
+                          your work.
+                        </span>
                       </div>
-                      <span className="description svelte-18wal5">
-                        Let folks know what`s up with status thumbnails for your work.
-                      </span>
-                    </div>
-                    <div className="shot-holder svelte-18wal5">
-                      <div className="shot svelte-18wal5">
-                        <figure className="svelte-cmqfoo">
-                          {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
-                        </figure>
+                      <div className="shot-holder svelte-18wal5">
+                        <div className="shot svelte-18wal5">
+                          <figure className="svelte-cmqfoo">
+                            {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
+                          </figure>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
                 </div>
               </div>
@@ -391,16 +424,20 @@ const WebProjects = () => {
                           Portfolio Templates
                         </div>
                         <span className="description svelte-18wal5">
-                          Instantly spec out your designs so developers can have no excuses.
-                          Here are some awesome websites and templates that i built,
-                          as part of my Css, HTML, and Javascript practices.
+                          Instantly spec out your designs so developers can have
+                          no excuses. Here are some awesome websites and
+                          templates that i built, as part of my Css, HTML, and
+                          Javascript practices.
                         </span>
                         <span className="description svelte-18wal5">
-                          These are clean, modern and responsive professional looking resume /
-                          personal portfolio template for all types of career choices.
-                          well crafted Designed for user experience on multiple device screen sizes like laptops, desktops and smartphones.
-                          These templates give flexibilty to customise the theme easly as per the your requirements.
-                          Included with all latest technology HTML5, CSS3 and jQuery.
+                          These are clean, modern and responsive professional
+                          looking resume / personal portfolio template for all
+                          types of career choices. well crafted Designed for
+                          user experience on multiple device screen sizes like
+                          laptops, desktops and smartphones. These templates
+                          give flexibilty to customise the theme easly as per
+                          the your requirements. Included with all latest
+                          technology HTML5, CSS3 and jQuery.
                         </span>
                         <span className="description svelte-18wal5">
                           <h4>Key features</h4>
@@ -432,8 +469,10 @@ const WebProjects = () => {
                           Company Tailored Templates
                         </div>
                         <span className="description svelte-18wal5">
-                          Always keep track of whats supposed to be done - comes in nasty
-                          pink... Here you will find multiple fully functional web applications that I built using React, TypeScrypt, Css(Tiwind) and HTML.
+                          Always keep track of whats supposed to be done - comes
+                          in nasty pink... Here you will find multiple fully
+                          functional web applications that I built using React,
+                          TypeScrypt, Css(Tiwind) and HTML.
                         </span>
                       </div>
                       <div className="shot-holder svelte-18wal5">
@@ -448,20 +487,18 @@ const WebProjects = () => {
                   <a href="#" className="showcase-block svelte-18wal5">
                     <div className="showcase-inner svelte-18wal5">
                       <div className="deets svelte-18wal5">
-                        <div className="title svelte-18wal5">
-                          Coming Soon
-                        </div>
+                        <div className="title svelte-18wal5">Coming Soon</div>
                         <span className="description svelte-18wal5">
-                          Are your website is currently being maintained and offline for a
-                          while? then you can use these templates can be of use to you.
-                          My Coming Soon templates designs are well designed,
-                          modern and responsive.
+                          Are your website is currently being maintained and
+                          offline for a while? then you can use these templates
+                          can be of use to you. My Coming Soon templates designs
+                          are well designed, modern and responsive.
                         </span>
                         <span className="description svelte-18wal5">
                           These themes have a jquery countdown plugin in build.
-                          and they are designed with height quality standards
-                          to meet the latest requirements that fit in
-                          all devices with multi browser support.
+                          and they are designed with height quality standards to
+                          meet the latest requirements that fit in all devices
+                          with multi browser support.
                         </span>
                       </div>
                       <div className="shot-holder svelte-18wal5">
@@ -477,11 +514,10 @@ const WebProjects = () => {
                   <a href="#" className="showcase-block svelte-18wal5">
                     <div className="showcase-inner svelte-18wal5">
                       <div className="deets svelte-18wal5">
-                        <div className="title svelte-18wal5">
-                          Custoji
-                        </div>
+                        <div className="title svelte-18wal5">Custoji</div>
                         <span className="description svelte-18wal5">
-                          Create emojis that-should-not-be to torment your friends with.
+                          Create emojis that-should-not-be to torment your
+                          friends with.
                         </span>
                       </div>
                       <div className="shot-holder svelte-18wal5">
@@ -500,13 +536,21 @@ const WebProjects = () => {
                           Current in the workings
                         </div>
                         <span className="description svelte-18wal5">
-                          Create AI enhanced color palettes in Figma based on your color system.
+                          Create AI enhanced color palettes in Figma based on
+                          your color system.
                         </span>
                         <div className="preview-holder svelte-18wal5">
                           <div className="preview svelte-18wal5">
                             <div className="svelte-l9lsq7">
                               <figure className="svelte-cmqfoo">
-                                <img src='/assets/images/resources/showcase/showcase_cim-dm.png' alt="" width="" height="" loading="lazy" className="svelte-cmqfoo loaded" />
+                                <img
+                                  src="/assets/images/resources/showcase/showcase_cim-dm.png"
+                                  alt=""
+                                  width=""
+                                  height=""
+                                  loading="lazy"
+                                  className="svelte-cmqfoo loaded"
+                                />
                               </figure>
                             </div>
                           </div>
@@ -515,42 +559,40 @@ const WebProjects = () => {
                     </div>
                   </a>
 
-                  <a href="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
-                    <div className="deets svelte-18wal5">
-                      <div className="title svelte-18wal5">
-                        Theme Time
+                  <a href="#" className="showcase-block svelte-18wal5">
+                    <div className="showcase-inner svelte-18wal5">
+                      <div className="deets svelte-18wal5">
+                        <div className="title svelte-18wal5">Theme Time</div>
+                        <span className="description svelte-18wal5">
+                          Check your time here... but the year`s 1999.
+                        </span>
                       </div>
-                      <span className="description svelte-18wal5">
-                        Check your time here...
-                        but the year`s 1999.
-                      </span>
-                    </div>
-                    <div className="shot-holder svelte-18wal5">
-                      <div className="shot svelte-18wal5">
-                        <figure className="svelte-cmqfoo">
-                          {/* <img src={SixthCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
-                        </figure>
+                      <div className="shot-holder svelte-18wal5">
+                        <div className="shot svelte-18wal5">
+                          <figure className="svelte-cmqfoo">
+                            {/* <img src={SixthCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
+                          </figure>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
-                  <a href="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
-                    <div className="deets svelte-18wal5">
-                      <div className="title svelte-18wal5">
-                        Other
+                  <a href="#" className="showcase-block svelte-18wal5">
+                    <div className="showcase-inner svelte-18wal5">
+                      <div className="deets svelte-18wal5">
+                        <div className="title svelte-18wal5">Other</div>
+                        <span className="description svelte-18wal5">
+                          Let folks know what`s up with status thumbnails for
+                          your work.
+                        </span>
                       </div>
-                      <span className="description svelte-18wal5">
-                        Let folks know what`s up with status thumbnails for your work.
-                      </span>
-                    </div>
-                    <div className="shot-holder svelte-18wal5">
-                      <div className="shot svelte-18wal5">
-                        <figure className="svelte-cmqfoo">
-                          {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
-                        </figure>
+                      <div className="shot-holder svelte-18wal5">
+                        <div className="shot svelte-18wal5">
+                          <figure className="svelte-cmqfoo">
+                            {/* <img src={SeventhCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" /> */}
+                          </figure>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
                 </div>
               </div>
@@ -563,7 +605,6 @@ const WebProjects = () => {
                   </p>
                   <div className="display: contents; --fill: var(--color-text-primary)">
                     <svg
-
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -668,13 +709,13 @@ const WebProjects = () => {
                   </div>
                 </div>
               </div>
-            </div >
+            </div>
           </div>
-        </div >
+        </div>
         <div className="spacer svelte-1dke9pl"></div>
-      </main >
+      </main>
     </>
-  )
-}
+  );
+};
 
-export default WebProjects
+export default WebProjects;

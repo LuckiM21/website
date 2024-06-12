@@ -85,12 +85,12 @@ const Footer = () => {
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"
             >
-              Posts
+              Instagram
             </a>
           </li>
           <li className="svelte-gfa3ns">
             <a
-              href="https://read.cv/luckiemumba"
+              href="https://instagram.com/luckiearts"
               target="_blank"
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"
@@ -98,7 +98,7 @@ const Footer = () => {
               CV
             </a>
           </li>
-          <li className="svelte-gfa3ns">
+          {/* <li className="svelte-gfa3ns">
             <a
               href="https://www.linkedin.com/in/luckiemumba/"
               target="_blank"
@@ -107,12 +107,25 @@ const Footer = () => {
             >
               LinkedIn
             </a>
+          </li> */}
+          <li className="svelte-gfa3ns">
+            <a
+              href="https://www.linkedin.com/in/luckiemumba/"
+              target="_blank"
+              rel="nofollow noreferrer"
+              className="svelte-gfa3ns"
+            >
+              Facebook
+            </a>
           </li>
         </ul>
         <ul className="list contacts svelte-gfa3ns">
           <li className="h6 svelte-gfa3ns">Contact</li>
           <li className="svelte-gfa3ns">
             <button className="svelte-gfa3ns">Message</button>
+          </li>
+          <li className="svelte-gfa3ns">
+            <button className="svelte-gfa3ns">WhatsApp</button>
           </li>
         </ul>
       </footer>

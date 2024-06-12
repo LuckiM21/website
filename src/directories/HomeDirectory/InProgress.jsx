@@ -34,7 +34,12 @@ const InProgress = () => {
               data-sveltekit-preload-data=""
               href="#"
             >
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+
+                style={{
+                  background: 'var( --spectrum-purple-190)',
+                  color: 'var(--color-text-bold)',
+                }}>
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Multiplayer</span>
                   <h2>Doodler</h2>
@@ -72,7 +77,12 @@ const InProgress = () => {
               data-sveltekit-preload-data=""
               href="https:// /work/droplette"
             >
-              <div className="card-wrap svelte-vd84gr">
+              <div className="card-wrap svelte-vd84gr"
+                style={{
+                  background: '#1c1c1c',
+                  color: 'var(--color-white)',
+
+                }}>
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Figma</span>
                   <h2>Droplette</h2>
