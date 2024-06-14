@@ -216,8 +216,8 @@ const Architecture = () => {
                           rel="contact"
                         >
                           contact me
-                        </a>
-                        ' for more infomation.
+                        </a>{" "}
+                        for more infomation.
                       </div>
                       <p>
                         As someone who moonlights as a developer, I’ve come to find
@@ -483,7 +483,7 @@ const Architecture = () => {
           </div >
         </div >
         <br />
-        {/* <div className="spacer svelte-1dke9pl"></div> */}
+
       </main>
     </>
   );

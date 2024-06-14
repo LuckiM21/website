@@ -1,52 +1,24 @@
 // import { Link } from "react-router-dom";
-import Svg1 from "../../assets/images/work/docs/flurish/card_docs_icon_01.svg";
-import Svg2 from "../../assets/images/work/docs/flurish/card_docs_icon_02.svg";
-import Svg3 from "../../assets/images/work/docs/flurish/card_docs_icon_03.svg";
 import AiPng from "../../assets/images/hp/ai.png";
 import Figma from "../../assets/images/hp/figma.png";
 import Docs from "../../assets/images/hp/docs.png";
 import Hs from "../../assets/images/hp/hs.png";
-import CardDocsicon01 from '../../assets/images/work/docs/flurish/CardDocsicon01'
-
 const Cards = () => {
   return (
     <>
       <div className="cards svelte-1eg3i2g">
-        <div className="cards-content"
-        // style={{
-        // display: "contents",
-        // background: "var(--color-pink)",
-        // color: "var(--color-pink)",
-        // }}
-        >
+        <div className="cards-content">
           <div
             style={{
               display: "contents",
-              background: "var(--color-pink)",
-              color: "var(--color-text-bold)",
               "--grid-column-start": "1",
               "--grid-column-end": "10",
             }}
           >
             <a
               className="card svelte-vd84gr"
-              // sveltekit:prefetch=""
-              data-sveltekit-preload-code=""
-              data-sveltekit-preload-data=""
               href="#"
             >
-              <div className="card-flourish svelte-vd84gr">
-                <CardDocsicon01 />
-                <img
-                  // src={Svg1}
-
-                  style={{
-                    top: "-80px",
-                    left: "70px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-              </div>
               <div className="card-wrap svelte-vd84gr"
                 style={{
                   background: "var(--color-pink)",
@@ -54,8 +26,8 @@ const Cards = () => {
                 }}
               >
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Help Scout</span>
-                  <h2>AI</h2>
+                  <span className="svelte-vd84gr">Border Radius</span>
+                  <h2>Bubble</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
                   <div className="image-holder docs svelte-1eg3i2g">
@@ -67,6 +39,9 @@ const Cards = () => {
                         height="422"
                         loading="lazy"
                         className="svelte-cmqfoo skip loaded"
+                        style={{
+                          borderRadius: "20px"
+                        }}
                       />
                     </figure>
                   </div>
@@ -85,29 +60,9 @@ const Cards = () => {
           >
             <a
               className="card svelte-vd84gr"
-              // sveltekit:prefetch=""
-              // data-sveltekit-preload-code=""
-              // data-sveltekit-preload-data=""
               href="#"
             >
-              <div className="card-flourish svelte-vd84gr">
-                <img
-                  src="https:///work/docs/flourish/card_docs_icon_02.svg"
-                  style={{
-                    top: "-70px",
-                    left: "70px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-                <img
-                  src="https://work/docs/flourish/card_docs_icon_03.svg"
-                  style={{
-                    top: "-80px",
-                    right: "250px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-              </div>
+              {/* <div className="card-flourish svelte-vd84gr"></div> */}
               <div className="card-wrap svelte-vd84gr"
                 style={{
                   background: "var(--color-mint)",
@@ -115,8 +70,8 @@ const Cards = () => {
                 }}
               >
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Help Scout</span>
-                  <h2>Articles</h2>
+                  <span className="svelte-vd84gr">3D Portifolio</span>
+                  <h2>Website</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
                   <div className="image-holder docs svelte-1eg3i2g">
@@ -128,6 +83,9 @@ const Cards = () => {
                         height="600"
                         loading="lazy"
                         className="svelte-cmqfoo skip loaded"
+                        style={{
+                          borderRadius: "20px"
+                        }}
                       />
                     </figure>
                   </div>
@@ -146,29 +104,8 @@ const Cards = () => {
           >
             <a
               className="card svelte-vd84gr"
-              // sveltekit:prefetch=""
-              data-sveltekit-preload-code=""
-              data-sveltekit-preload-data=""
-              href="https:// /work/plugins"
+              href="#"
             >
-              <div className="card-flourish svelte-vd84gr">
-                <img
-                  src="https:///work/plugin/flourish/card_figma_icon_01.svg"
-                  style={{
-                    bottom: "200px",
-                    left: "-100px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-                <img
-                  src="https:// /work/plugin/flourish/card_figma_icon_02.svg"
-                  style={{
-                    top: "-100px",
-                    right: "300px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-              </div>
               <div className="card-wrap svelte-vd84gr"
                 style={{
                   background: "var(--color-rust)",
@@ -176,7 +113,7 @@ const Cards = () => {
                 }}
               >
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Figma</span>
+                  <span className="svelte-vd84gr">Css</span>
                   <h2>Plugins</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
@@ -207,29 +144,16 @@ const Cards = () => {
           >
             <a
               className="card svelte-vd84gr large"
-              // sveltekit:prefetch=""
-              data-sveltekit-preload-code=""
-              data-sveltekit-preload-data=""
-              href="https:// /work/mobile"
+              href="#"
             >
-              <div className="card-flourish svelte-vd84gr">
-                <img
-                  src="https:// /work/mobile/flourish/card_mobile_icon_01.svg"
-                  style={{
-                    top: "-70px",
-                    left: "100px",
-                  }}
-                  className="svelte-vd84gr"
-                />
-              </div>
               <div className="card-wrap svelte-vd84gr"
                 style={{
                   background: "var(--color-babyblue)",
                   color: "var(--color-text-bold)",
                 }}>
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Help Scout</span>
-                  <h2>Mobile</h2>
+                  <span className="svelte-vd84gr">Iphone 15 pro clone</span>
+                  <h2>Website</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
                   <div className="image-holder hs svelte-1eg3i2g">
@@ -249,14 +173,7 @@ const Cards = () => {
             </a>
           </div>
         </div>
-      </div >
-
-
-
-
-
-
-
+      </div>
     </>
   );
 };

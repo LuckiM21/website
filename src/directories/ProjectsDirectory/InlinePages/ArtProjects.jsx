@@ -101,8 +101,8 @@ const ArtProjects = () => {
                 </div>
               </article>
               <div className="container">
-                <h4>for a walkthrough througc my work click
-                  <a href="../../../Pages/redirections/arts/html.html">here</a>
+                <h4>to walkthrough through my work click
+                  <a href="#">here</a>
                 </h4>
               </div>
               {/* --------------------------------------------/SPAN---------------------------------------------------- */}

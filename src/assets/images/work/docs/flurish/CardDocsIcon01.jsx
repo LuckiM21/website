@@ -1,5 +1,5 @@
 
-const CardDocsicon01 = ({ color }) => {
+const CardDocsIcon01 = ({ color }) => {
   return (
     <div>
       <svg
@@ -17,4 +17,4 @@ const CardDocsicon01 = ({ color }) => {
   )
 }
 
-export default CardDocsicon01
+export default CardDocsIcon01

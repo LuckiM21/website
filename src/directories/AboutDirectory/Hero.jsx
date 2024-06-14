@@ -38,6 +38,7 @@ const Hero = () => {
                     display: 'contents',
                     '--fill': 'var(--color-primary)'
                   }}>
+
                     <svg
                       width="41"
                       height="40"

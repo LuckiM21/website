@@ -1,9 +1,10 @@
-
+import { useEffect } from 'react'
 import {
   Route,
   createBrowserRouter,
   createRoutesFromElements,
-  RouterProvider
+  RouterProvider,
+  useLocation
 } from 'react-router-dom'
 
 import MainLayout from './layouts/MainLayout'
@@ -19,6 +20,11 @@ import Ai from './directories/NotesDirectory/NotesCardPages/Ai'
 import Architecture from './directories/NotesDirectory/NotesCardPages/Architecture'
 import Throwaways from './directories/NotesDirectory/NotesCardPages/Throwaways'
 import ArtProjects from './directories/ProjectsDirectory/InlinePages/ArtProjects'
+import Diagonal from './directories/NotesDirectory/NotesCardPages/Diagonal'
+import Gradients from './directories/NotesDirectory/NotesCardPages/Gradients'
+import CssBR from './directories/NotesDirectory/NotesCardPages/CssBR'
+
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout />}>
@@ -33,17 +39,35 @@ const router = createBrowserRouter(
       <Route path="/Ai" element={<Ai />} />
       <Route path="/Architecture" element={<Architecture />} />
       <Route path="/Throwaways" element={<Throwaways />} />
+      <Route path="/Diagonal" element={<Diagonal />} />
+      <Route path="/Gradients" element={<Gradients />} />
+      <Route path="/CssBR" element={<CssBR />} />
       <Route path="*" element={<Error />} />
     </Route>
-  ));
+  )
+);
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    console.log("Pathname changed:", pathname);
+  }, [pathname]);
+
+  return null;
+
+};
+
 const App = () => {
   return (<>
-    <RouterProvider router={router} />
-
+    <RouterProvider router={router}>
+      <ScrollToTop />
+    </RouterProvider>
   </>
 
-  )
-}
+  );
+};
 
 export default App
 

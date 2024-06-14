@@ -47,14 +47,14 @@ const PlayCards
               </div>
             </Link>
 
-            <Link to="#" className="showcase-block svelte-18wal5">
+            <Link to="/CssBR" className="showcase-block svelte-18wal5">
               <div className="showcase-inner svelte-18wal5">
                 <div className="deets svelte-18wal5">
                   <div className="title svelte-18wal5">
-                    Custoji
+                    Css Border-Radius
                   </div>
                   <span className="description svelte-18wal5">
-                    Create emojis that-should-not-be to torment your friends with.
+                    Create a very cool effect with a rarely used feature
                   </span>
                 </div>
                 <div className="shot-holder svelte-18wal5">
@@ -70,10 +70,10 @@ const PlayCards
             <Link to="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
               <div className="deets svelte-18wal5">
                 <div className="title svelte-18wal5">
-                  Cover Status
+                  Iphone 15 web clone
                 </div>
                 <span className="description svelte-18wal5">
-                  Let folks know what`s up with status thumbnails for your work.
+                  Sharpening my web design skills by cloning the Iphone website that uses Three.js and Gsap.
                 </span>
               </div>
               <div className="shot-holder svelte-18wal5">
@@ -86,6 +86,24 @@ const PlayCards
             </div>
             </Link>
 
+            <Link to="#" className="showcase-block svelte-18wal5"><div className="showcase-inner svelte-18wal5">
+              <div className="deets svelte-18wal5">
+                <div className="title svelte-18wal5">
+                  Nike Website clone
+                </div>
+                <span className="description svelte-18wal5">
+                  Check this out...
+                </span>
+              </div>
+              <div className="shot-holder svelte-18wal5">
+                <div className="shot svelte-18wal5">
+                  <figure className="svelte-cmqfoo">
+                    <img src={SixthCardImage} alt="" width="100" height="100" loading="lazy" className="svelte-cmqfoo skip fullwidth loaded" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+            </Link>
           </div>
         </div>
 
@@ -137,10 +155,10 @@ const PlayCards
               <div className="showcase-inner svelte-18wal5">
                 <div className="deets svelte-18wal5">
                   <div className="title svelte-18wal5">
-                    ChitChat
+                    Ballpoint Pen Art
                   </div>
                   <span className="description svelte-18wal5">
-                    Chat, rage, or table flip about design with your team with this chat app prototype.
+                    What my art is like
                   </span>
                 </div>
                 <div className="shot-holder svelte-18wal5">

@@ -9,8 +9,6 @@ const CssPage = () => {
           <div className="article-inner svelte-9xj1dk">
             <div className="article svelte-9xj1dk">
 
-
-
               <div className="article-holder svelte-9xj1dk">
                 <div className="article-inner svelte-9xj1dk">
                   <div className="article svelte-9xj1dk">

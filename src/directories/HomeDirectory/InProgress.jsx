@@ -18,31 +18,23 @@ const InProgress = () => {
         <div className="cards-content">
           <div
             style={{
-              display: 'contents',
-              background: 'var(--color-white)',
-              color: 'var(--color-text-bold)',
-              '--grid-column-start': '1',
-              '--grid-column-end': '16',
-              '--align': 'center'
+              display: "contents",
+              "--grid-column-start": "1",
+              "--grid-column-end": "16",
+              "--align": "center",
             }}
-
           >
-            <a
-              className="card svelte-vd84gr"
-              // sveltekit:prefetch=""
-              data-sveltekit-preload-code=""
-              data-sveltekit-preload-data=""
-              href="#"
-            >
-              <div className="card-wrap svelte-vd84gr"
-
+            <a className="card svelte-vd84gr" href="#">
+              <div
+                className="card-wrap svelte-vd84gr"
                 style={{
-                  background: 'var( --spectrum-purple-190)',
-                  color: 'var(--color-text-bold)',
-                }}>
+                  background: "var( --spectrum-purple-190)",
+                  color: "var(--color-text-bold)",
+                }}
+              >
                 <div className="info svelte-vd84gr">
-                  <span className="svelte-vd84gr">Multiplayer</span>
-                  <h2>Doodler</h2>
+                  <span className="svelte-vd84gr">Minecraft</span>
+                  <h2>Game</h2>
                 </div>
                 <div className="inner svelte-vd84gr">
                   <div className="image-holder doodler svelte-131t5ir">
@@ -57,32 +49,29 @@ const InProgress = () => {
                       />
                     </figure>
                   </div>
-                </div></div
-              ></a>
+                </div>
+              </div>
+            </a>
           </div>
           <div
             style={{
-              display: 'contents',
-              background: '#1c1c1c',
-              color: 'var(--color-white)',
-              '--grid-column-start': '17',
-              '--grid-column-end': '26',
-              '--align': 'flex-end'
+              display: "contents",
+              "--grid-column-start": "17",
+              "--grid-column-end": "26",
+              "--align": "flex-end",
             }}
           >
             <a
               className="card svelte-vd84gr"
-              // sveltekit:prefetch=""
-              data-sveltekit-preload-code=""
-              data-sveltekit-preload-data=""
-              href="https:// /work/droplette"
+              href="#"
             >
-              <div className="card-wrap svelte-vd84gr"
+              <div
+                className="card-wrap svelte-vd84gr"
                 style={{
-                  background: '#1c1c1c',
-                  color: 'var(--color-white)',
-
-                }}>
+                  background: "#1c1c1c",
+                  color: "var(--color-white)",
+                }}
+              >
                 <div className="info svelte-vd84gr">
                   <span className="svelte-vd84gr">Figma</span>
                   <h2>Droplette</h2>
@@ -94,7 +83,6 @@ const InProgress = () => {
                         src={Droplate}
                         alt="Droplette"
                         width="100%"
-                        height=""
                         loading="lazy"
                         className="svelte-cmqfoo skip loaded"
                       />
@@ -105,7 +93,7 @@ const InProgress = () => {
             </a>
           </div>
         </div>
-      </div >
+      </div>
     </>
   );
 };

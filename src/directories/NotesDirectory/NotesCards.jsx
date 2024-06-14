@@ -3,26 +3,13 @@ import SecondCardImage from "../../assets/images/notes/chatgpt/icon.png";
 import ThirdCardImage from "../../assets/images/notes/throwaway/icon.png";
 import FourthCardImage from "../../assets/images/notes/cover/icon.png";
 import FifthCardImage from "../../assets/images/notes/prototypes/icon.png";
-// import { useState } from 'react'
 import { Link } from "react-router-dom";
-// import CssFTSOI from './NotesCardPages/CssFTSOI'
 
 const NotesCards = () => {
-  // const [showDetails, setShowDetails] = useState(false);
 
-  // const handleOpenButton = () => {
-  //   setShowDetails(true);
-  // };
-  // const handleCloseButton = () => {
-  //   setShowDetails(false);
-  // }
 
   return (
     <>
-      {/* <button onClick={handleOpenButton}>
-        showDetails
-      </button>
-      {showDetails && <CssFTSOI onClose={handleCloseButton} />} */}
       <div>
         <div className="showcase-holder svelte-88yij0">
           <div className="showcase svelte-88yij0">
@@ -151,7 +138,7 @@ const NotesCards = () => {
               </div>
             </Link>
             <Link
-              to="notes/prototyping"
+              to="/Diagonal"
               className="showcase-block svelte-88yij0"
               data-sveltekit-preload-code=""
               data-sveltekit-preload-data=""
@@ -159,7 +146,7 @@ const NotesCards = () => {
               <div className="showcase-inner svelte-88yij0">
                 <div className="deets svelte-88yij0">
                   <div className="title svelte-88yij0">
-                    Flash to Figma: My love story with prototyping tools
+                    Diagonal
                   </div>
                   <span className="description svelte-88yij0">
                     I`ve witnessed coding simplify and prototyping principles
@@ -171,6 +158,68 @@ const NotesCards = () => {
                     <figure className="svelte-cmqfoo">
                       <img
                         src={FifthCardImage}
+                        alt=""
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="svelte-cmqfoo fit skip fullwidth loaded"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link
+              to="/Gradients"
+              className="showcase-block svelte-88yij0"
+              data-sveltekit-preload-code=""
+              data-sveltekit-preload-data=""
+            >
+              <div className="showcase-inner svelte-88yij0">
+                <div className="deets svelte-88yij0">
+                  <div className="title svelte-88yij0">
+                    Gradient angles in CSS, Figma & Sketch
+                  </div>
+                  <span className="description svelte-88yij0">
+                    Just a little of math here
+                  </span>
+                </div>
+                <div className="showcase-icon svelte-88yij0">
+                  <div className="display: contents; --radius: 0; --shadow: none">
+                    <figure className="svelte-cmqfoo">
+                      <img
+                        src={FifthCardImage}
+                        alt=""
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="svelte-cmqfoo fit skip fullwidth loaded"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link
+              to="/CssBR"
+              className="showcase-block svelte-88yij0"
+              data-sveltekit-preload-code=""
+              data-sveltekit-preload-data=""
+            >
+              <div className="showcase-inner svelte-88yij0">
+                <div className="deets svelte-88yij0">
+                  <div className="title svelte-88yij0">
+                    Css Border Radius
+                  </div>
+                  <span className="description svelte-88yij0">
+                    CSS Border-Radius Can Do That?
+                  </span>
+                </div>
+                <div className="showcase-icon svelte-88yij0">
+                  <div className="display: contents; --radius: 0; --shadow: none">
+                    <figure className="svelte-cmqfoo">
+                      <img
+                        src={SecondCardImage}
                         alt=""
                         width="80"
                         height="80"

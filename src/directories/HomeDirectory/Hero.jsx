@@ -11,14 +11,7 @@ const Hero = () => {
               Hi. I`m Luckie.
               <span className="stars right svelte-pbuplb">
                 <figure className="svelte-cmqfoo">
-                  <img
-                    src={SecondStar}
-                    alt=""
-                    width=""
-                    height=""
-                    loading="lazy"
-                    className="svelte-cmqfoo skip"
-                  />
+                  <SecondStar />
                 </figure>
               </span>
             </span>
@@ -28,14 +21,7 @@ const Hero = () => {
               Developer.
               <span className="stars left svelte-pbuplb">
                 <figure className="svelte-cmqfoo">
-                  <img
-                    src={FirstStar}
-                    alt=""
-                    width=""
-                    height=""
-                    loading="lazy"
-                    className="svelte-cmqfoo skip"
-                  />
+                  <FirstStar />
                 </figure>
               </span>
             </span>
