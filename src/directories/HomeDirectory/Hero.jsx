@@ -1,5 +1,6 @@
 import FirstStar from "../../assets/images/hp/Star1";
 import SecondStar from "../../assets/images/hp/Star2";
+import Togglebutton from "../Togglebutton";
 
 const Hero = () => {
   return (
@@ -29,11 +30,20 @@ const Hero = () => {
         </span>
       </h1>
       <div className="wrapper svelte-fn0uxd">
-        <div className="svelte-fn0uxd">
+        <div className="svelte-fn0uxd"
+          style={{
+            textAlign: "center"
+          }}>
           I`m passionate about crafting experiences that are engaging,
           accessible, and user-centric.
           Here we can dealv deep into what I`ve worked on in the past, current and what my endeavors are!
         </div>
+      </div>
+      <div
+        style={{
+          paddingTop: "2em"
+        }}>
+        <Togglebutton />
       </div>
     </>
   );

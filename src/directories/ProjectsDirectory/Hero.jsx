@@ -1,4 +1,4 @@
-import star from '../../assets/images/hp/star-2.svg'
+import FirstStar from '../../assets/images/hp/Star1'
 const Hero = () => {
   return (
     <>
@@ -9,11 +9,7 @@ const Hero = () => {
               Projects.
               <span className="stars svelte-18wal5">
                 <figure className="svelte-cmqfoo">
-                  <img
-                    src={star}
-                    alt=""
-                    width=""
-                    height=""
+                  <FirstStar
                     loading="lazy"
                     className="svelte-cmqfoo skip loaded"
                   />

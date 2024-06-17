@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import Contact from '../Pages/Contact'
 
@@ -6,72 +6,72 @@ import Contact from '../Pages/Contact'
 const NavBar = () => {
 
 
-  const [showContact, setShowContact] = useState(false);
+  // const [showContact, setShowContact] = useState(false);
 
-  const handleOpenButton = () => {
-    setShowContact(true);
-  };
+  // const handleOpenButton = () => {
+  //   setShowContact(true);
+  // };
 
-  const handleCloseButton = () => {
-    setShowContact(false);
-  }
+  // const handleCloseButton = () => {
+  //   setShowContact(false);
+  // }
 
 
   return (
     <>
-      <header className="svelte-1wikuy2">
-        <nav className="svelte-1wikuy2">
-          <ul className="main svelte-1wikuy2 blur scrolled">
-            <li className="svelte-1wikuy2">
+      <header className="navbar">
+        <nav className="navbar">
+          <ul className="main navbar blur scrolled">
+            <li className="navbar">
               <NavLink
                 to="/"
-                className="main-link svelte-1wikuy2 "
+                className="main-link navbar "
               >
-                Work <span className="slash svelte-1wikuy2">
+                Work <span className="slash navbar">
                   /
                 </span>
               </NavLink>
             </li>
-            <li className="svelte-1wikuy2">
+            <li className="navbar">
               <NavLink
                 to="about"
-                className="main-link svelte-1wikuy2"
+                className="main-link navbar"
               >About
               </NavLink>
             </li>
-            <li className="svelte-1wikuy2">
+            <li className="navbar">
               <NavLink
                 to="Projects"
-                className="main-link svelte-1wikuy2"
+                className="main-link navbar"
               >Projects
               </NavLink>
             </li>
-            <li className="svelte-1wikuy2">
+            <li className="navbar">
               <NavLink
                 to="notes"
-                className="main-link svelte-1wikuy2"
+                className="main-link navbar"
               >Notes
               </NavLink>
             </li>
-            <li className="svelte-1wikuy2">
+            {/* <li className="navbar">
 
-              <button className="svelte-1wikuy2"
+              <button className="navbar"
                 onClick={handleOpenButton}
               >
                 Contact
               </button>
-            </li>
-            <li className="svelte-1wikuy2">
+            </li> */}
+            <li className="navbar">
               <NavLink
                 to="Login"
-                className="main-link svelte-1wikuy2"
+                className="main-link navbar"
               >Login
               </NavLink>
             </li>
           </ul>
         </nav>
       </header>
-      {showContact && <Contact onClose={handleCloseButton} />}
+      {/* {showContact && <Contact onClose={handleCloseButton} />} */}
     </>
   )
 }

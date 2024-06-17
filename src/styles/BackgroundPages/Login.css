@@ -157,12 +157,11 @@
 
 /* ========================================================== */
 
-.outer {
+/* .outer {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 400vh;
-  /* background: #111; */
   width: 100%;
   overflow: hidden;
 }
@@ -201,7 +200,7 @@
 .ring2 i:nth-child(3) {
   border-radius: 41% 44% 56% 59%/38% 62% 63% 50%;
   animation: animate2 90s linear infinite;
-}
+} */
 
 /* .ring2:hover i {
  

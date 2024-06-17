@@ -56,7 +56,7 @@ article.svelte-9xj1dk.svelte-9xj1dk {
   display: grid;
   grid-template-columns: var(--16px) 1fr var(--16px);
   padding: 0 var(--16px);
-  row-gap: ;
+  /* row-gap: ; */
 }
 
 @media (min-width: 544px) {
@@ -104,7 +104,7 @@ article.svelte-9xj1dk.svelte-9xj1dk {
   margin: var(--spacing-l) var(--16px);
   max-width: 850px;
   padding: var(--spacing-xs) 0;
-  row-gap: ;
+  /* row-gap: ; */
   font-size: var(--font-link);
   box-shadow: 0 0 0 2px var(--color-primary-border);
   border-radius: var(--radius-base);
