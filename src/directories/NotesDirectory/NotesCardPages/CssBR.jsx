@@ -12,7 +12,7 @@ const CssBR = () => {
                   tabIndex="0"
                   data-sveltekit-preload-code=""
                   data-sveltekit-preload-data=""
-                  to="/projects"
+                  to="/notes"
                 >
                   <svg
                     width="13"

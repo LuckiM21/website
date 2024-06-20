@@ -5,15 +5,17 @@ const Error = () => {
     <div>
       <h1 className="svelte-veednl tight"><span slot="title">Hello</span></h1>
       <div className="wrapper svelte-fn0uxd">
-        <p className="svelte-fn0uxd center">
-          Click the button bellow to be Directed to the home page.
+        <p className="svelte-fn0uxd center"
+          style={{
+            padding: '1em'
+          }}>
+          Took a wrong turn there, click the button below to be
+          redrected back to the home page.
         </p>
         <div className="wrapper svelte-fn0uxd">
           <div className="svelte-fn0uxd">
             <div style={{
-              display: 'flex',
-              textAlign: 'center',
-              flexDirection: 'column',
+              textAlign: 'center'
             }}>
               <Link to="/" className="button svelte-1s0lt5v">
                 Home

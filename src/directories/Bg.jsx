@@ -16,13 +16,6 @@ const Bg = () => {
           "--clr": "#fffd44"
         }}></i>
       </div>
-      {/* <div className="ring3">
-        <i style={{
-          "--clr": "#00ff0a"
-        }}></i>
-        <i style={{ "--clr": "#ff0057" }}></i>
-        <i style={{ "--clr": "#fffd44" }}></i>
-      </div> */}
     </div>
   )
 }
