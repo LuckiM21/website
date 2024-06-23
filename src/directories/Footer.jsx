@@ -80,7 +80,8 @@ const Footer = () => {
           </li>
           <li className="svelte-gfa3ns">
             <a
-              href="https://posts.cv/luckiemumba"
+              href="https://instagram.com/luckiearts"
+
               target="_blank"
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"
@@ -90,7 +91,8 @@ const Footer = () => {
           </li>
           <li className="svelte-gfa3ns">
             <a
-              href="https://instagram.com/luckiearts"
+              href="https://posts.cv/luckiemumba"
+
               target="_blank"
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"
@@ -98,19 +100,10 @@ const Footer = () => {
               CV
             </a>
           </li>
-          {/* <li className="svelte-gfa3ns">
-            <a
-              href="https://www.linkedin.com/in/luckiemumba/"
-              target="_blank"
-              rel="nofollow noreferrer"
-              className="svelte-gfa3ns"
-            >
-              LinkedIn
-            </a>
-          </li> */}
+
           <li className="svelte-gfa3ns">
             <a
-              href="https://www.linkedin.com/in/luckiemumba/"
+              href="https://web.facebook.com/itx.lucky.400/"
               target="_blank"
               rel="nofollow noreferrer"
               className="svelte-gfa3ns"
@@ -122,11 +115,23 @@ const Footer = () => {
         <ul className="list contacts svelte-gfa3ns">
           <li className="h6 svelte-gfa3ns">Contact</li>
           <li className="svelte-gfa3ns">
-            <button className="svelte-gfa3ns">Message</button>
-          </li>
+            <a
+              href="mailto:luckiemumba160@gmail.com"
+              target="_blank"
+              rel="nofollow noreferrer"
+              className="svelte-gfa3ns"
+            >
+              Email
+            </a></li>
           <li className="svelte-gfa3ns">
-            <button className="svelte-gfa3ns">WhatsApp</button>
-          </li>
+            <a
+              href="https://wa.me/+260968434228?text=Hello%20there!"
+              target="_blank"
+              rel="nofollow noreferrer"
+              className="svelte-gfa3ns"
+            >
+              WhatsApp
+            </a></li>
         </ul>
       </footer>
 

@@ -102,7 +102,7 @@ const ArtProjects = () => {
               </article>
               <div className="container">
                 <h4>to walkthrough through my work click
-                  <a href="#">here</a>
+                  <a href="https://luckim21.github.io/artworks" target="_blank">here</a>
                 </h4>
               </div>
               {/* --------------------------------------------/SPAN---------------------------------------------------- */}
