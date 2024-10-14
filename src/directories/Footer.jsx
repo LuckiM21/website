@@ -35,12 +35,12 @@ const Footer = () => {
                 <div className="artist svelte-1ybcdb5">On repeat</div>
                 <div className="song svelte-1ybcdb5">
                   <a
-                    href="https://open.spotify.com/track/1e5Ps2wBO34kq6zTuqhRZX"
+                    href="https://open.spotify.com/track/3wGnuHsDrusD2I1B7Y6XBB?si=b3a05f96bdb04874"
                     target="_blank"
                     rel="nofollow noreferrer"
                     className="svelte-1ybcdb5"
                   >
-                    Fjords by Bill Laurance
+                    Tokyo Funkin by Poodie
                   </a>
                 </div>
               </div>
