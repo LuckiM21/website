@@ -18,7 +18,12 @@ const Hero = () => {
             </span>
           </span>
         </h1>
-        <div className="wrapper svelte-fn0uxd">
+
+        <div className="wrapper svelte-fn0uxd"
+          style={{
+            textAlign: "center",
+          }}
+        >
           <div className="svelte-fn0uxd">
             A collection of tools, web apps and sites I`ve created, designed to
             be helpful, fun, <span className="amp">&amp;</span> sometimes just a

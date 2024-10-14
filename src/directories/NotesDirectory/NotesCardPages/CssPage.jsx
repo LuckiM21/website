@@ -1026,14 +1026,7 @@ const CssPage = () => {
                         </div>
                         <div className="ui-control svelte-1u4x8wq">
                           <label className="ui-label svelte-1u4x8wq">
-                            <button
-                              className="ui-button svelte-1u4x8wq"
-                              type="button"
-                              aria-pressed="false"
-                            >
-                              <div className="ui-knob svelte-1u4x8wq"></div>
-                            </button>
-                            <div className="ui-text svelte-1u4x8wq">Blueprint</div>
+                            <div className="ui-text svelte-1u4x8wq">Outcome</div>
                           </label>
                         </div>
                       </div>
@@ -1082,13 +1075,13 @@ const CssPage = () => {
                         instances where I`ve used CSS grid. The overall architecture of
                         the device lends itself well to this approach. The underlying
                         code uses
-                        <a
+                        {" "}<a
                           href="https://svelte.dev/"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
                           Svelte
-                        </a>
+                        </a>{" "}
                         , which lets me tackle repeating divs with ease. Take, for
                         example, the speaker located in the top right corner.
                       </p>

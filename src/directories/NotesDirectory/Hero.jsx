@@ -9,11 +9,15 @@ const Hero = () => {
         </h1>
 
 
-        <div className="wrapper svelte-fn0uxd">
+        <div className="wrapper svelte-fn0uxd"
+          style={{
+            textAlign: "center",
+          }}
+        >
           <div className="svelte-fn0uxd">
             Some thoughts, reflections
             <span className="amp"> &amp; </span>
-            notes on design and development, along with some latest work in
+            notes on design and development, reagarding my projects along with some latest work in
             progress.
           </div>
         </div>

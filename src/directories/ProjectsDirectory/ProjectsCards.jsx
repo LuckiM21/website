@@ -109,7 +109,7 @@ const PlayCards
 
 
 
-
+        {/* 
         <div className="timeline-holder svelte-c4ft01">
           <div className="grid svelte-885gk8 xs">
             <h2 className="item svelte-885gk8">Architecture Projects</h2>
@@ -138,14 +138,14 @@ const PlayCards
             </Link>
           </div>
         </div>
-
+ */}
 
 
 
 
         <div className="timeline-holder svelte-c4ft01">
           <div className="grid svelte-885gk8 xs">
-            <h2 className="item svelte-885gk8">Art Projects</h2>
+            <h2 className="item svelte-885gk8">My Art</h2>
           </div>
         </div>
         <div className="showcase-holder svelte-18wal5">
